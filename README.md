@@ -54,7 +54,10 @@ Smokers pay way more. The box plot shows smokers have much higher charges than n
 People were grouped by BMI: underweight, normal, overweight, obese. The box plot shows obese people face higher charges. This means BMI is a good factor for predicting high costs.
 ![image](https://github.com/user-attachments/assets/ec0abee4-7214-4d00-b007-54f89cced786)
 <br>
+<p align="center">
 **Chart Analysis: BMI Category vs Medical Charges**
+</p>
+
 <br>
 **Which One is Highest?**
 - **Obese** individuals have the highest medical charges. The median cost is higher than the other BMI categories, and there are many outliers with extremely high charges (some even exceeding **$60,000**).
