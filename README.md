@@ -1,4 +1,4 @@
-# Medical cost
+# Medical Cost
 <ul>
 <li>Subject: Data Science</li>
 <li>Class: MAS2</li>
