@@ -70,7 +70,7 @@ These charts directly show who has higher costs—smokers, older people, and tho
 - **Increasing Pattern**: Medical costs **increase with age**. The older the person, the more they pay, especially if they smoke. The charges rise for both groups, but the gap between smokers and non-smokers remains obvious and significant at every age group.
 **Why is This Important?**
 <br>
-=> Age and smoking are two major factors driving up medical costs. Older people cost more, and smokers cost way more. So, adjust the premiums—charge **older people higher premiums** based on the increased cost with age, and **charge smokers even more** to cover their significantly higher health risks. The costs aren't the same for everyone—insurance pricing needs to reflect this. Higher age and smoking mean higher costs, so premiums need to go up for these groups..
+**=>**  Age and smoking are two major factors driving up medical costs. Older people cost more, and smokers cost way more. So, adjust the premiums—charge **older people higher premiums** based on the increased cost with age, and **charge smokers even more** to cover their significantly higher health risks. The costs aren't the same for everyone—insurance pricing needs to reflect this. Higher age and smoking mean higher costs, so premiums need to go up for these groups..
 </br>
 
 # V. Conclusion
