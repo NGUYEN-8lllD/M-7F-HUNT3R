@@ -40,7 +40,7 @@ Smokers pay way more. The box plot shows smokers have much higher charges than n
 ![image](https://github.com/user-attachments/assets/400166d9-384b-4f84-80c3-cfa311181709)
 <br>
 <p align="center">
-**Chart Analysis: Smoking vs Medical Charges**
+//**Chart Analysis: Smoking vs Medical Charges**
 </p>
 <br>
 **Which One is Highest?**
@@ -55,7 +55,7 @@ People were grouped by BMI: underweight, normal, overweight, obese. The box plot
 ![image](https://github.com/user-attachments/assets/ec0abee4-7214-4d00-b007-54f89cced786)
 <br>
 <p align="center">
-**Chart Analysis: BMI Category vs Medical Charges**
+//**Chart Analysis: BMI Category vs Medical Charges**
 </p>
 
 <br>
@@ -73,7 +73,7 @@ These charts directly show who has higher costs—smokers, older people, and tho
 ![image](https://github.com/user-attachments/assets/85e7baca-e438-43b9-a7f9-5ddc387d20c5)
 <br>
 <p align="center">
-**Chart Analysis: Age vs Medical Charges**
+//**Chart Analysis: Age vs Medical Charges**
 </p>
 <br>
 **Which One is Highest?**
