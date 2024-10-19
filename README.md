@@ -38,7 +38,9 @@
 **1. Smoking vs. Medical Charges**
 Smokers pay way more. The box plot shows smokers have much higher charges than non-smokers. Recommendation: charge smokers more.
 ![image](https://github.com/user-attachments/assets/400166d9-384b-4f84-80c3-cfa311181709)
+<br>
 **Chart Analysis: Smoking vs Medical Charges**
+<br>
 **Which One is Highest?**
 - **Smokers** pay significantly higher medical charges than non-smokers. The median cost for smokers is around **$35,000**, while for non-smokers it's just **$8,000**. The highest costs for smokers go over **$60,000**, compared to non-smokers who rarely exceed **$20,000**.
 **Increasing/Decreasing Pattern?**
@@ -49,7 +51,9 @@ Smokers pay way more. The box plot shows smokers have much higher charges than n
 **2. BMI Categories vs. Medical Charges**
 People were grouped by BMI: underweight, normal, overweight, obese. The box plot shows obese people face higher charges. This means BMI is a good factor for predicting high costs.
 ![image](https://github.com/user-attachments/assets/ec0abee4-7214-4d00-b007-54f89cced786)
+<br>
 **Chart Analysis: BMI Category vs Medical Charges**
+<br>
 **Which One is Highest?**
 - **Obese** individuals have the highest medical charges. The median cost is higher than the other BMI categories, and there are many outliers with extremely high charges (some even exceeding **$60,000**).
 - **Underweight, Normal, and Overweight** categories have similar median charges, all much lower than the obese group.
@@ -64,8 +68,8 @@ These charts directly show who has higher costs—smokers, older people, and tho
 ![image](https://github.com/user-attachments/assets/85e7baca-e438-43b9-a7f9-5ddc387d20c5)
 <br>
 **Chart Analysis: Age vs Medical Charges**
+<br>
 **Which One is Highest?**
-</br>
 - **Smokers** always have the highest medical charges compared to non-smokers, regardless of age. The **blue dots** represent smokers, and they are consistently above the **orange dots** (non-smokers).
 - As age increases, the medical charges also increase for both smokers and non-smokers, but smokers consistently pay much more. The highest charges go well above **$60,000**, mostly for older smokers.
 **Increasing/Decreasing Pattern?**
