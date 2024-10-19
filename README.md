@@ -62,8 +62,10 @@ People were grouped by BMI: underweight, normal, overweight, obese. The box plot
 Charges increase with age, especially after 50. The scatter plot shows this clearly. Older people are more likely to need higher-cost insurance.
 These charts directly show who has higher costs—smokers, older people, and those with higher BMI. This means insurance companies should adjust premiums accordingly.
 ![image](https://github.com/user-attachments/assets/85e7baca-e438-43b9-a7f9-5ddc387d20c5)
+<br>
 **Chart Analysis: Age vs Medical Charges**
 **Which One is Highest?**
+</br>
 - **Smokers** always have the highest medical charges compared to non-smokers, regardless of age. The **blue dots** represent smokers, and they are consistently above the **orange dots** (non-smokers).
 - As age increases, the medical charges also increase for both smokers and non-smokers, but smokers consistently pay much more. The highest charges go well above **$60,000**, mostly for older smokers.
 **Increasing/Decreasing Pattern?**
