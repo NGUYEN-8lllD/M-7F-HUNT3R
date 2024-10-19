@@ -48,7 +48,7 @@ Smokers pay way more. The box plot shows smokers have much higher charges than n
 **Increasing/Decreasing Pattern?**
 - There's no specific increasing or decreasing trend shown here because this is a comparison between two groups. What it clearly shows is a **huge difference** in medical costs between smokers and non-smokers. Smokers always have higher costs—no exceptions.
 **Why is This Important?**
-- **Decision for Manager**: Smokers are a high-risk group with much higher and more unpredictable medical expenses. This means **higher premiums** are needed for smokers to balance out the increased risk. The cost difference is too big to ignore; smokers need to pay more because they cost the company more. Straightforward decision—charge them more, minimize the company's financial risk.
+**=>**  Smokers are a high-risk group with much higher and more unpredictable medical expenses. This means **higher premiums** are needed for smokers to balance out the increased risk. The cost difference is too big to ignore; smokers need to pay more because they cost the company more. Straightforward decision—charge them more, minimize the company's financial risk.
 
 **2. BMI Categories vs. Medical Charges**
 People were grouped by BMI: underweight, normal, overweight, obese. The box plot shows obese people face higher charges. This means BMI is a good factor for predicting high costs.
@@ -65,7 +65,7 @@ People were grouped by BMI: underweight, normal, overweight, obese. The box plot
 **Increasing/Decreasing Pattern?**
 - There is an **increasing pattern** in medical charges as BMI goes up. Medical charges steadily rise from **underweight to obese**. Obese individuals have a significant jump in costs compared to the others.
 **Why is This Important?**
-- **Decision for Manager**: Obese individuals are driving higher costs, which means they are a higher risk group. To manage this risk, insurance premiums should be higher for obese individuals. The cost difference is clear—people with higher BMIs (specifically those classified as obese) cost more in healthcare. Adjust the premiums accordingly to make sure the higher risk (higher medical expenses) is covered by higher pricing. Simple decision—higher risk, higher cost.
+**=>**  Obese individuals are driving higher costs, which means they are a higher risk group. To manage this risk, insurance premiums should be higher for obese individuals. The cost difference is clear—people with higher BMIs (specifically those classified as obese) cost more in healthcare. Adjust the premiums accordingly to make sure the higher risk (higher medical expenses) is covered by higher pricing. Simple decision—higher risk, higher cost.
 
 **3. Age vs. Medical Charges**
 Charges increase with age, especially after 50. The scatter plot shows this clearly. Older people are more likely to need higher-cost insurance.
