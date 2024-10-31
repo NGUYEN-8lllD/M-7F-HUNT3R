@@ -1,5 +1,4 @@
-Bệnh hở van tim Coronary Artery heart Disease
-# Medical Cost
+# Coronary Artery heart Disease
 <ul>
 <li>Subject: Data Science</li>
 <li>Class: MAS2</li>
