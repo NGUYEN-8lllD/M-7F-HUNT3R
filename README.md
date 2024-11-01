@@ -111,4 +111,4 @@ These charts directly show who has higher costs—smokers, older people, and tho
 
 # V. Conclusion
 Smoking, age, and BMI are the main factors driving medical costs. Smokers, older people, and those with high BMI should be charged higher premiums based on their risk. No fluff—just straight insights and recommendations.
-</div>
+
