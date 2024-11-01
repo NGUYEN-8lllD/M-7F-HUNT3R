@@ -53,7 +53,7 @@ ATA thường được hiểu là "American Thyroid Association"
 # III. Data Cleaning
 ![image](https://github.com/user-attachments/assets/8380c6ab-24e9-4a27-84cd-77063058214b)
 
-- The data is already cleaned
+The data is already cleaned
 
 # IV. Charts and Insights
 **1. Smoking vs. Medical Charges**
