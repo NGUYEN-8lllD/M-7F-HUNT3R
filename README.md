@@ -33,7 +33,9 @@ ATA thường được hiểu là "American Thyroid Association"
 <br>
 
 - This data can be instrumental for analyzing sales performance, understanding customer preferences, and making informed business decisions.
-- </div>
+</div>
+
+<div>
 # II. Data Discussion
 - **Age:** age of the patient [years]
 - **Sex:** sex of the patient [M: Male, F: Female]
@@ -47,6 +49,7 @@ ATA thường được hiểu là "American Thyroid Association"
 - **Oldpeak:** oldpeak = ST [Numeric value measured in depression]
 - **ST_Slope:** the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
 - **HeartDisease:** output class [1: heart disease, 0: Normal]
+</div>
 
 <div align="center">
   
