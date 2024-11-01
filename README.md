@@ -1,13 +1,12 @@
-
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=salesp07.salesp07" />
 
 <h1 align="center">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=30&center=true&vCenter=true&width=500&height=70&duration=5000&lines=Hello+Mr+EC!+👋;Our+data+presentation;+Coronary+Artery+Heart+Disease;" />
 </h1>
 
 <h3 align="center">Research from Group 6 hehe</h3>
-
-<br/>
 <h4>
+<br/>
 <div align="center">
 # Coronary Artery heart Disease
 <ul>
@@ -16,7 +15,6 @@
 <li>Lecturer: Dr. Emmanuel Lance Christopher VI M. Plan</li>
 </ul>
 .
-</h4>
 
 # Team Member 
 
@@ -36,7 +34,7 @@ ATA thường được hiểu là "American Thyroid Association"
 <br>
 
 - This data can be instrumental for analyzing sales performance, understanding customer preferences, and making informed business decisions.
-
+</h4>
 # II. Data Discussion
 - **Age:** age of the patient [years]
 - **Sex:** sex of the patient [M: Male, F: Female]
