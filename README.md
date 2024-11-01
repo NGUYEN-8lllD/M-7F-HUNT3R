@@ -35,8 +35,9 @@ ATA thường được hiểu là "American Thyroid Association"
 - This data can be instrumental for analyzing sales performance, understanding customer preferences, and making informed business decisions.
 </div>
 
-
+<h4 align="center">
 # II. Data Discussion
+</h4>
 - **Age:** age of the patient [years]
 - **Sex:** sex of the patient [M: Male, F: Female]
 - **ChestPainType:** chest pain type [TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic]
