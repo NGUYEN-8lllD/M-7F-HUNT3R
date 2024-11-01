@@ -36,7 +36,9 @@ ATA thường được hiểu là "American Thyroid Association"
 </div>
 
 <h4 align="center">
+    
 # II. Data Discussion
+
 </h4>
 
 - **Age:** age of the patient [years]
