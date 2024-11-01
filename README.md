@@ -62,10 +62,10 @@ The data is already cleaned
 Smokers pay way more. The box plot shows smokers have much higher charges than non-smokers. Recommendation: charge smokers more.
 ![image](https://github.com/user-attachments/assets/400166d9-384b-4f84-80c3-cfa311181709)
 <br>
-<p align="center">
+
 **Chart Analysis: Smoking vs Medical Charges**
-</p>
-<br>
+
+
 **Which One is Highest?**
 - **Smokers** pay significantly higher medical charges than non-smokers. The median cost for smokers is around **$35,000**, while for non-smokers it's just **$8,000**. The highest costs for smokers go over **$60,000**, compared to non-smokers who rarely exceed **$20,000**.
 **Increasing/Decreasing Pattern?**
@@ -78,11 +78,11 @@ Smokers pay way more. The box plot shows smokers have much higher charges than n
 People were grouped by BMI: underweight, normal, overweight, obese. The box plot shows obese people face higher charges. This means BMI is a good factor for predicting high costs.
 ![image](https://github.com/user-attachments/assets/ec0abee4-7214-4d00-b007-54f89cced786)
 <br>
-<p align="center">
-**Chart Analysis: BMI Category vs Medical Charges**
-</p>
 
-<br>
+**Chart Analysis: BMI Category vs Medical Charges**
+
+
+
 **Which One is Highest?**
 - **Obese** individuals have the highest medical charges. The median cost is higher than the other BMI categories, and there are many outliers with extremely high charges (some even exceeding **$60,000**).
 - **Underweight, Normal, and Overweight** categories have similar median charges, all much lower than the obese group.
@@ -97,9 +97,9 @@ Charges increase with age, especially after 50. The scatter plot shows this clea
 These charts directly show who has higher costs—smokers, older people, and those with higher BMI. This means insurance companies should adjust premiums accordingly.
 ![image](https://github.com/user-attachments/assets/85e7baca-e438-43b9-a7f9-5ddc387d20c5)
 <br>
-<p align="center">
+
 **Chart Analysis: Age vs Medical Charges**
-</p>
+</br>
 <br>
 **Which One is Highest?**
 - **Smokers** always have the highest medical charges compared to non-smokers, regardless of age. The **blue dots** represent smokers, and they are consistently above the **orange dots** (non-smokers).
