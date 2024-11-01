@@ -6,7 +6,6 @@
 
 <h3 align="center">Research from Group 6 hehe</h3>
 <br/>
-<h4>
 <div align="center">
 # Coronary Artery heart Disease
 <ul>
@@ -34,7 +33,7 @@ ATA thường được hiểu là "American Thyroid Association"
 <br>
 
 - This data can be instrumental for analyzing sales performance, understanding customer preferences, and making informed business decisions.
-</h4>
+- </div>
 # II. Data Discussion
 - **Age:** age of the patient [years]
 - **Sex:** sex of the patient [M: Male, F: Female]
