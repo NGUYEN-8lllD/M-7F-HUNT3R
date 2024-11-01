@@ -33,13 +33,9 @@ ATA thường được hiểu là "American Thyroid Association"
 <br>
 
 - This data can be instrumental for analyzing sales performance, understanding customer preferences, and making informed business decisions.
-</div>
 
-<h4 align="center">
-    
 # II. Data Discussion
-
-</h4>
+</div>
 
 - **Age:** age of the patient [years]
 - **Sex:** sex of the patient [M: Male, F: Female]
