@@ -7,7 +7,7 @@
 <h3 align="center">Research from Group 6 hehe</h3>
 
 <br/>
-
+<h4>
 <div align="center">
 # Coronary Artery heart Disease
 <ul>
@@ -16,6 +16,7 @@
 <li>Lecturer: Dr. Emmanuel Lance Christopher VI M. Plan</li>
 </ul>
 .
+</h4>
 
 # Team Member 
 
