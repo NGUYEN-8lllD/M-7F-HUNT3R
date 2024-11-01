@@ -47,6 +47,9 @@ ATA thường được hiểu là "American Thyroid Association"
 - **Oldpeak:** oldpeak = ST [Numeric value measured in depression]
 - **ST_Slope:** the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
 - **HeartDisease:** output class [1: heart disease, 0: Normal]
+
+<div align="center">
+  
 # III. Data Cleaning
 ![image](https://github.com/user-attachments/assets/8380c6ab-24e9-4a27-84cd-77063058214b)
 
@@ -108,3 +111,4 @@ These charts directly show who has higher costs—smokers, older people, and tho
 
 # V. Conclusion
 Smoking, age, and BMI are the main factors driving medical costs. Smokers, older people, and those with high BMI should be charged higher premiums based on their risk. No fluff—just straight insights and recommendations.
+</div>
