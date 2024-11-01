@@ -25,6 +25,10 @@
 
 # I. Introduction
 
+"Chest pain type TA" stands for Typical Angina
+ATA thường được hiểu là "American Thyroid Association" 
+Đau ngực NAP thường được hiểu là "New Angina Pectoris,"
+
 
 - The cost of healthcare is going up everywhere, and it's a big problem for many countries. To help fix this, we need to know what makes medical expenses high. This is important for insurance companies, healthcare providers, and the government. The report looks at the "Medical Cost Personal Dataset." This dataset shows health insurance costs based on things like age, sex, BMI, smoking, and where people live. It has 1,338 records with 7 different factors that affect insurance costs. These factors include age, region, smoking habits, and BMI. The main focus is on "charges," which means the medical costs billed. The data comes from Kaggle.
 - The goal of this project is to analyze the dataset to find important patterns and relationships between different factors and medical costs. The analysis will include descriptive statistics, visualizations, and a prediction model to estimate medical expenses based on these factors. The findings could help insurance companies better understand individuals with high medical costs, which can support better risk management and adjust pricing strategies for premiums. 
@@ -33,13 +37,18 @@
 - This data can be instrumental for analyzing sales performance, understanding customer preferences, and making informed business decisions.
 
 # II. Data Discussion
-- **Age**: Age of the person.
-- **Sex**: Male or female.
-- **BMI**: Body fat measurement.
-- **Children**: Number of dependents.
-- **Smoker**: Yes or no.
-- **Region**: Area (northeast, northwest, southeast, southwest).
-- **Charges**: Medical costs billed.
+- **Age:** age of the patient [years]
+- **Sex:** sex of the patient [M: Male, F: Female]
+- **ChestPainType:** chest pain type [TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic]
+- **RestingBP:** resting blood pressure [mm Hg]
+- **Cholesterol:** serum cholesterol [mm/dl]
+- **FastingBS:** fasting blood sugar [1: if FastingBS > 120 mg/dl, 0: otherwise]
+- **RestingECG:** resting electrocardiogram results [Normal: Normal, ST: having ST-T wave abnormality (T wave inversions and/or ST elevation  or depression of > 0.05 mV), LVH: showing probable or definite left ventricular hypertrophy by Estes' criteria]
+- **MaxHR:** maximum heart rate achieved [Numeric value between 60 and 202]
+- **ExerciseAngina:** exercise-induced angina [Y: Yes, N: No]
+- **Oldpeak:** oldpeak = ST [Numeric value measured in depression]
+- **ST_Slope:** the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
+- **HeartDisease:** output class [1: heart disease, 0: Normal]
 # III. Data Cleaning
 ![image](https://github.com/user-attachments/assets/8380c6ab-24e9-4a27-84cd-77063058214b)
 
