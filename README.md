@@ -91,7 +91,7 @@
 # III. Charts and Insights
 ![image](https://github.com/user-attachments/assets/941ca8f3-a43b-4e5f-b2a8-8f7012ffd22b)
 <div align="center">
-**Age Distribution of Patients**
+#Age Distribution of Patients
       </div>
    <br>
 The age distribution of the patients in the dataset is shown in the histogram with a KDE curve overlaid. The pattern of the distribution appears to be almost bell-shaped (or normal distribution), meaning most patients fall within a central age range, with fewer younger and older patients on the edges.
