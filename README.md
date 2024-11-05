@@ -4,7 +4,7 @@
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=30&center=true&vCenter=true&width=500&height=70&duration=5000&lines=Hello+Mr+EC!+👋;Our+data+presentation;+Coronary+Artery+Heart+Disease;" />
 </h1>
 
-<h3 align="center">Research from Group 6 hehe</h3>
+<h3 align="center">Research from Group 5</h3>
 <br/>
 <div align="center">
  **Coronary Artery heart Disease**
