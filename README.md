@@ -5,7 +5,7 @@
 </h1>
 
 <h3 align="center">Research from Group 5</h3>
-<br/>
+
 <div align="center">
  
 **Coronary Artery heart Disease**
@@ -61,7 +61,6 @@
     <td>100%</td>
   </tr>
 </table>
-<br>
 
 # I. Introduction
 
