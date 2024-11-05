@@ -21,13 +21,49 @@
 .
 
 
-| Student Number | Student Name          | Tasks Done                     | Remarks by Leader          | Student Evaluation |
-|----------------|-----------------------|--------------------------------|----------------------------|---------------------|
-| 22080306       | Nguyễn Khoa Đàm       | 2 Charts                       |                            | 100%               |
-| 22080314       | Nguyễn Thái Hoàng (Leader) | Introduction and Conclusion |                            | 100%               |
-| 22080327       | Bùi Tấn Minh          | 1 Chart                        | Attended 3/5 meetings      | 80%                |
-| 22080335       | Trần Vũ Hoàng Nguyên  | 3 Charts                       |                            | 100%               |
-| 22080344       | Nguyễn Công Toàn      |                                |                            | 100%               |
+<table>
+  <tr>
+    <th>Student Number</th>
+    <th>Student Name</th>
+    <th>Tasks Done</th>
+    <th>Remarks by Leader</th>
+    <th>Student Evaluation</th>
+  </tr>
+  <tr>
+    <td>22080306</td>
+    <td>Nguyễn Khoa Đàm</td>
+    <td>2 Charts</td>
+    <td></td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td>22080314</td>
+    <td>Nguyễn Thái Hoàng (Leader)</td>
+    <td colspan="2">Introduction and Conclusion</td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td>22080327</td>
+    <td>Bùi Tấn Minh</td>
+    <td>1 Chart</td>
+    <td>Attended 3/5 meetings</td>
+    <td>80%</td>
+  </tr>
+  <tr>
+    <td>22080335</td>
+    <td>Trần Vũ Hoàng Nguyên</td>
+    <td>3 Charts</td>
+    <td></td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td>22080344</td>
+    <td>Nguyễn Công Toàn</td>
+    <td></td>
+    <td></td>
+    <td>100%</td>
+  </tr>
+</table>
 
 # I. Introduction
 
