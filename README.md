@@ -92,7 +92,7 @@
   <br>
 ![image](https://github.com/user-attachments/assets/941ca8f3-a43b-4e5f-b2a8-8f7012ffd22b)
 
-# Age Distribution of Patients
+## Age Distribution of Patients
 
    <br>
 The age distribution of the patients in the dataset is shown in the histogram with a KDE curve overlaid. The pattern of the distribution appears to be almost bell-shaped (or normal distribution), meaning most patients fall within a central age range, with fewer younger and older patients on the edges.
@@ -114,7 +114,7 @@ The age distribution of the patients in the dataset is shown in the histogram wi
   => In summary, the dataset’s age distribution centers on middle-aged and senior adults, especially those aged 55–60 who are typically at higher risk for heart disease. This concentration makes the dataset relevant for heart disease studies in these age groups, which might also aid in designing preventive health measures and healthcare plans. However, while this dataset gives valuable insights into heart disease risk for middle-aged and older adults, it might require more data from younger and elderly groups to understand heart disease dynamics across the entire age range.
 
 ![image](https://github.com/user-attachments/assets/8a89f3d0-7a51-44de-8d74-bf7493165087)
-# Age Distribution of Heart Disease Cases
+## Age Distribution of Heart Disease Cases
  <br>
 This chart shows heart disease cases by age group, with orange indicating patients with heart disease and light blue for those without.
  <br>
@@ -143,7 +143,7 @@ Heart disease risk clearly goes up with age, peaking in the 50–60 range and st
  <br>
 
 ![image](https://github.com/user-attachments/assets/1d7409a2-adf5-4fbe-80ba-2794637550a5)
-# Cholesterol level by Heart Disease Status
+## Cholesterol level by Heart Disease Status
  <br>
 This box plot shows cholesterol levels for patients with (1) and without (0) heart disease. The y-axis represents cholesterol levels.
  <br>
@@ -176,7 +176,7 @@ This box plot shows cholesterol levels for patients with (1) and without (0) hea
 
 ![image](https://github.com/user-attachments/assets/a8f75074-954d-4ed5-911e-8f0a33b795e2)
   <br>
-# Chest Pain Type and Heart Disease
+## Chest Pain Type and Heart Disease
   <br>
 This bar chart shows the distribution of chest pain types among patients with and without heart disease. Each chest pain type (ASY, ATA, NAP, TA) is on the x-axis, while the y-axis shows the number of patients. Orange represents those with heart disease; blue represents those without.
   <br>
@@ -204,7 +204,7 @@ This bar chart shows the distribution of chest pain types among patients with an
 
 ![image](https://github.com/user-attachments/assets/51811154-b544-4525-a4d1-ffb4d0dda35a)
     <br>
-# Fasting Blood Sugar Levels and Heart Disease
+## Fasting Blood Sugar Levels and Heart Disease
 <br>
 This bar chart shows how fasting blood sugar levels relate to heart disease. On the x-axis, 0 means blood sugar ≤120 mg/dl, and 1 means >120 mg/dl. The y-axis shows patient count, with blue for patients without heart disease and orange for those with heart disease.
     <br>
@@ -230,7 +230,22 @@ This bar chart shows how fasting blood sugar levels relate to heart disease. On 
 
 
 ![image](https://github.com/user-attachments/assets/1d960389-e380-4e6f-b6cf-e7e7b3a4e80b)
-Age and maximum heart rate 
+
+## Age and maximum heart rate 
+
+**Age and Max Heart Rate in Relation to Heart Disease:**
+
+This scatter plot shows how age and maximum heart rate relate to heart disease. Each dot represents a patient, with blue for patients without heart disease and orange for those with heart disease.
+**Key Observations**
+* Age and Heart Disease: Heart disease cases (orange dots) are mostly among older patients, especially those over 50. Younger patients are more likely to be without heart disease (blue dots).
+* Max Heart Rate and Heart Disease: Patients without heart disease (blue) tend to have higher max heart rates, often around 150 or more, regardless of age. Those with heart disease (orange) usually have lower max heart rates, often below 140, especially as they get older.
+* Trend with Age: Max heart rate decreases as age increases, which is normal, but this decrease is more noticeable in heart disease patients, where older individuals tend to have even lower max heart rates.
+**Implications**
+* Max Heart Rate as a Heart Disease Indicator: A lower max heart rate in older patients could signal higher heart disease risk, suggesting it’s a useful metric for heart health assessment, especially in those over 50.
+* Screening Based on Age and Max Heart Rate: Older patients with low max heart rates might need more intensive screening since they’re at higher risk for heart disease.
+**Conclusion**
+  
+This chart shows that lower max heart rates are linked to heart disease, especially in older adults. Tracking max heart rate with age could help spot at-risk individuals, supporting early action for heart disease prevention.
 
 ![image](https://github.com/user-attachments/assets/383202ca-dc13-4c37-abf8-1e086e5d8f27)
 Cholesterol levels and resting blood pressure 
