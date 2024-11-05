@@ -7,13 +7,9 @@
 <h3 align="center">Research from Group 5</h3>
 
 <div align="center">
- 
-<h4>
-    
-**Coronary Artery heart Disease**
-</h4>
 
 <ul>
+<strong>Coronary Artery heart Disease</strong>
 <li>Subject: Data Science</li>
 <li>Class: MAS2</li>
 <li>Lecturer: Dr. Emmanuel Lance Christopher VI M. Plan</li>
