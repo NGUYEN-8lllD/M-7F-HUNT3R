@@ -66,25 +66,25 @@
 
 
 
-- Cardiovascular diseases (CVDs) are like the top reason people die worldwide, killing about 17.9 million people every year, which is 31% of all deaths. Out of these, like 4 out of 5 deaths are from heart attacks and strokes, and a third of them happen to people under 70, which is considered early. Heart failure is a usual problem caused by CVDs, and this dataset has 11 features to try to predict if someone might get heart disease.
+* Cardiovascular diseases (CVDs) are like the top reason people die worldwide, killing about 17.9 million people every year, which is 31% of all deaths. Out of these, like 4 out of 5 deaths are from heart attacks and strokes, and a third of them happen to people under 70, which is considered early. Heart failure is a usual problem caused by CVDs, and this dataset has 11 features to try to predict if someone might get heart disease.
 
-- People who already have CVD or are at high risk—maybe because they have high blood pressure, diabetes, high cholesterol, or already have the disease—need to be detected early and managed. Using a machine learning model could help a lot in finding and handling these risks.
+* People who already have CVD or are at high risk—maybe because they have high blood pressure, diabetes, high cholesterol, or already have the disease—need to be detected early and managed. Using a machine learning model could help a lot in finding and handling these risks.
 
 # II. Data Discussion
 </div>
 
-- **Age:** age of the patient [years]
-- **Sex:** sex of the patient [M: Male, F: Female]
-- **ChestPainType:** chest pain type [TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic]
-- **RestingBP:** resting blood pressure [mm Hg]
-- **Cholesterol:** serum cholesterol [mm/dl]
-- **FastingBS:** fasting blood sugar [1: if FastingBS > 120 mg/dl, 0: otherwise]
-- **RestingECG:** resting electrocardiogram results [Normal: Normal, ST: having ST-T wave abnormality (T wave inversions and/or ST elevation  or depression of > 0.05 mV), LVH: showing probable or definite left ventricular hypertrophy by Estes' criteria]
-- **MaxHR:** maximum heart rate achieved [Numeric value between 60 and 202]
-- **ExerciseAngina:** exercise-induced angina [Y: Yes, N: No]
-- **Oldpeak:** oldpeak = ST [Numeric value measured in depression]
-- **ST_Slope:** the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
-- **HeartDisease:** output class [1: heart disease, 0: Normal]
+* **Age:** age of the patient [years]
+* **Sex:** sex of the patient [M: Male, F: Female]
+* **ChestPainType:** chest pain type [TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic]
+* **RestingBP:** resting blood pressure [mm Hg]
+* **Cholesterol:** serum cholesterol [mm/dl]
+* **FastingBS:** fasting blood sugar [1: if FastingBS > 120 mg/dl, 0: otherwise]
+* **RestingECG:** resting electrocardiogram results [Normal: Normal, ST: having ST-T wave abnormality (T wave inversions and/or ST elevation  or depression of > 0.05 mV), LVH: showing probable or definite left ventricular hypertrophy by Estes' criteria]
+* **MaxHR:** maximum heart rate achieved [Numeric value between 60 and 202]
+* **ExerciseAngina:** exercise-induced angina [Y: Yes, N: No]
+* **Oldpeak:** oldpeak = ST [Numeric value measured in depression]
+* **ST_Slope:** the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
+* **HeartDisease:** output class [1: heart disease, 0: Normal]
 
 <div align="center">
   
@@ -95,53 +95,45 @@
 
 ## Age Distribution of Patients
 
-   <br>
 The age distribution of the patients in the dataset is shown in the histogram with a KDE curve overlaid. The pattern of the distribution appears to be almost bell-shaped (or normal distribution), meaning most patients fall within a central age range, with fewer younger and older patients on the edges.
-  <br>
   
  **Key Observations**
-   <br>
-- **Age Range:** The dataset includes patients mostly between 30 and 75 years. We can see there are barely any patients under 30 or over 75 years, as indicated by the low bars at the edges.
-- **Peak Age Group**: The group with the most patients is between 55 and 60 years old, where the count reaches about 120. This suggests that the dataset has a heavy focus on middle-aged to older adults, especially those in their late 50s.
-- **Symmetry**: The distribution is somewhat symmetrical around the peak age, with almost an equal number of patients on either side of the 55–60 range. This might mean the dataset is representative of middle-aged to senior adults but with fewer younger (30s) and very old (70s) patients.
-  <br>
-   <br>
+
+* **Age Range:** The dataset includes patients mostly between 30 and 75 years. We can see there are barely any patients under 30 or over 75 years, as indicated by the low bars at the edges.
+* **Peak Age Group**: The group with the most patients is between 55 and 60 years old, where the count reaches about 120. This suggests that the dataset has a heavy focus on middle-aged to older adults, especially those in their late 50s.
+* **Symmetry**: The distribution is somewhat symmetrical around the peak age, with almost an equal number of patients on either side of the 55–60 range. This might mean the dataset is representative of middle-aged to senior adults but with fewer younger (30s) and very old (70s) patients.
+ 
 **Implications of the Age Distribution**
-  <br>
-- Focus on Middle-Aged and Older Adults: With most patients between 50 and 70 years old, this dataset aligns with the general trend of heart disease risk, which usually goes up with age. The demographic profile suggests that this dataset is likely geared towards studying heart disease among age groups that are more likely to experience cardiovascular issues. This might be helpful for targeted health measures.
-- Target Population for Heart Disease Analysis: Considering the age distribution, this dataset probably represents a population more at risk for heart disease, which could be useful for healthcare strategies aimed at middle-aged and senior patients. Having a lot of patients in their late 50s might imply that early interventions and risk management could be a focus for this age group.
-- Data Limitations for Younger and Very Elderly Groups: There aren’t many patients under 30 or over 75, which could be a limitation in applying any findings across all age groups. Insights gained from this dataset might not be fully applicable to very young adults or the very elderly, and collecting more data on these groups could give a fuller picture.
-  <br>
+ 
+* Focus on Middle-Aged and Older Adults: With most patients between 50 and 70 years old, this dataset aligns with the general trend of heart disease risk, which usually goes up with age. The demographic profile suggests that this dataset is likely geared towards studying heart disease among age groups that are more likely to experience cardiovascular issues. This might be helpful for targeted health measures.
+* Target Population for Heart Disease Analysis: Considering the age distribution, this dataset probably represents a population more at risk for heart disease, which could be useful for healthcare strategies aimed at middle-aged and senior patients. Having a lot of patients in their late 50s might imply that early interventions and risk management could be a focus for this age group.
+* Data Limitations for Younger and Very Elderly Groups: There aren’t many patients under 30 or over 75, which could be a limitation in applying any findings across all age groups. Insights gained from this dataset might not be fully applicable to very young adults or the very elderly, and collecting more data on these groups could give a fuller picture.
+
   => In summary, the dataset’s age distribution centers on middle-aged and senior adults, especially those aged 55–60 who are typically at higher risk for heart disease. This concentration makes the dataset relevant for heart disease studies in these age groups, which might also aid in designing preventive health measures and healthcare plans. However, while this dataset gives valuable insights into heart disease risk for middle-aged and older adults, it might require more data from younger and elderly groups to understand heart disease dynamics across the entire age range.
 
 ![image](https://github.com/user-attachments/assets/8a89f3d0-7a51-44de-8d74-bf7493165087)
 ## Age Distribution of Heart Disease Cases
- <br>
+
 This chart shows heart disease cases by age group, with orange indicating patients with heart disease and light blue for those without.
- <br>
-  <br>
-  
+
 **Key Observations**
- <br>
-- **50–60 Age Group**: Highest rate of heart disease; orange segment dominates.
-- **60–70 Age Group**: Also high in heart disease cases, though slightly fewer than 50–60.
-- **30–40 & 40–50 Groups**: More balanced, with both affected and unaffected individuals.
-- **70–80 Age Group**: Few patients, but most have heart disease, linking age to higher risk.
- <br>
-  <br>
+
+* **50–60 Age Group**: Highest rate of heart disease; orange segment dominates.
+* **60–70 Age Group**: Also high in heart disease cases, though slightly fewer than 50–60.
+* **30–40 & 40–50 Groups**: More balanced, with both affected and unaffected individuals.
+* **70–80 Age Group**: Few patients, but most have heart disease, linking age to higher risk.
+
 **Age-Related Trends**
- <br>
+
 Heart disease risk clearly goes up with age, peaking in the 50–60 range and staying high in older groups.
- <br>
-  <br>
+ 
 **Implications**
- <br>
-- **Preventive Focus**: Efforts should target the 50–70 age range with screenings and lifestyle guidance.
-- **Early Screening**: Heart disease, though less common, is present in younger groups, suggesting earlier screenings could help.
-- **Resource Allocation**: Healthcare should focus resources on middle-aged and older adults, especially 50+.
-    <br>
+
+* **Preventive Focus**: Efforts should target the 50–70 age range with screenings and lifestyle guidance.
+* **Early Screening**: Heart disease, though less common, is present in younger groups, suggesting earlier screenings could help.
+* **Resource Allocation**: Healthcare should focus resources on middle-aged and older adults, especially 50+.
+   
 =>  Heart disease increases with age, especially from 50 onwards. Targeted interventions and resources for these age groups could help manage and reduce heart disease effectively.
- <br>
 
 ![image](https://github.com/user-attachments/assets/1d7409a2-adf5-4fbe-80ba-2794637550a5)
 ## Cholesterol level by Heart Disease Status
