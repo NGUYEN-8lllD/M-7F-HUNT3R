@@ -253,7 +253,30 @@ This scatter plot shows how age and maximum heart rate relate to heart disease. 
 This chart shows that lower max heart rates are linked to heart disease, especially in older adults. Tracking max heart rate with age could help spot at-risk individuals, supporting early action for heart disease prevention.
 
 ![image](https://github.com/user-attachments/assets/383202ca-dc13-4c37-abf8-1e086e5d8f27)
-Cholesterol levels and resting blood pressure 
+
+## Cholesterol levels and resting blood pressure 
+
+The scatter plot visualizes cholesterol levels and resting blood pressure among patients, differentiated by blue dots for those without heart disease and green dots for those with heart disease.
+
+**Key Observations**
+
+* Cholesterol Levels: The majority of patients, regardless of heart disease status, have cholesterol levels between 150 and 300 mg/dL. Cases with cholesterol levels reaching up to 600 mg/dL are uncommon.
+
+* Resting Blood Pressure: Blood pressure ranges from 100 to 160 mmHg for both groups. There is no significant difference in blood pressure levels between patients with and without heart disease, as their ranges overlap.
+
+* Outliers: Some patients show very low cholesterol levels, close to zero, likely due to missing or erroneous data.
+
+* No Clear Separation: Cholesterol and blood pressure levels do not distinctly separate the two groups, indicating that these factors alone are insufficient for predicting heart disease.
+
+**Implications**
+
+* Combined Risk Factors: Cholesterol and blood pressure should be analyzed alongside other factors, such as age and chest pain type, for a more accurate heart disease risk assessment.
+
+* Data Cleaning: The presence of low cholesterol outliers highlights the need for data cleaning to improve accuracy.
+
+**Conclusion**
+
+Higher cholesterol and resting blood pressure levels are associated with heart disease, but they are not standalone predictors. A comprehensive risk assessment must consider multiple factors, and addressing data anomalies will enhance the reliability of the analysis.
 
 ![image](https://github.com/user-attachments/assets/67920a28-e8d4-4aee-b9da-766cc47458b1)
 Shows the distribution of cholesterol levels 
