@@ -89,8 +89,43 @@
 <div align="center">
   
 # III. Data Cleaning
+![image](https://github.com/user-attachments/assets/941ca8f3-a43b-4e5f-b2a8-8f7012ffd22b)
 
 Age Distribution of Patients
+
+
+
+![image](https://github.com/user-attachments/assets/8a89f3d0-7a51-44de-8d74-bf7493165087)
+Heart Disease by Age Group and sex
+
+![image](https://github.com/user-attachments/assets/1d7409a2-adf5-4fbe-80ba-2794637550a5)
+Cholesterol level by Heart Disease Status
+
+![image](https://github.com/user-attachments/assets/a8f75074-954d-4ed5-911e-8f0a33b795e2)
+The distribution of different chest pain types
+
+![image](https://github.com/user-attachments/assets/51811154-b544-4525-a4d1-ffb4d0dda35a)
+Heart Disease By farsting blood sugar level
+
+![image](https://github.com/user-attachments/assets/1d960389-e380-4e6f-b6cf-e7e7b3a4e80b)
+Age and maximum heart rate 
+
+![image](https://github.com/user-attachments/assets/383202ca-dc13-4c37-abf8-1e086e5d8f27)
+Cholesterol levels and resting blood pressure 
+
+![image](https://github.com/user-attachments/assets/67920a28-e8d4-4aee-b9da-766cc47458b1)
+Shows the distribution of cholesterol levels 
+
+![image](https://github.com/user-attachments/assets/ff231f41-5dff-4bb5-9cde-bac7cad81781)
+ROC Curve - KNN
+
+![image](https://github.com/user-attachments/assets/e26c3638-5bd2-4aed-88be-513226894cc4)
+ROC Curve - Logistic Regression
+
+![image](https://github.com/user-attachments/assets/d59e4292-22d7-4eeb-aee1-6325ae34977c)
+ROC Curve - Linear Regression
+
+
 
 # IV. Charts and Insights
 **1. Smoking vs. Medical Charges**
