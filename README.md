@@ -294,7 +294,24 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 High cholesterol is more prevalent among heart disease patients; however, because there is an overlap with patients without heart disease, cholesterol alone isn't a standalone predictor. Elevated cholesterol can still warrant closer monitoring, especially when combined with other risk factors. Additionally, near-zero values should be checked for accuracy to prevent skewed analysis.
 
 ![image](https://github.com/user-attachments/assets/ff231f41-5dff-4bb5-9cde-bac7cad81781)
-ROC Curve - KNN
+
+## K-Nearest Neighbors (KNN) Model Performance
+
+* **Accuracy:** The KNN model hit 85.32% accuracy.
+* **Classification Metrics:**
+    * **No Heart Disease (Class 0):**
+        * **Precision:** 80%
+        * **Recall:** 87%
+        * **F1-Score:** 0.83
+    * **Heart Disease (Class 1):**
+        * **Precision:** 90%
+        * **Recall:** 84%
+        * **F1-Score:** 0.87
+
+* **Averages:** Both macro and weighted averages are around 0.85, meaning the model handles both classes pretty evenly.
+* **AUC:** The KNN model scored an AUC of 0.92, showing it’s pretty good at telling the difference between heart disease and no heart disease cases.
+
+**Summary:** KNN is reliable for predicting heart disease, with solid recall for spotting non-heart disease cases (87%) and high precision (90%) for catching heart disease. Great choice if you need a consistent classifier.
 
 ![image](https://github.com/user-attachments/assets/e26c3638-5bd2-4aed-88be-513226894cc4)
 ROC Curve - Logistic Regression
