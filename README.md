@@ -89,10 +89,11 @@
 <div align="center">
   </div>
 # III. Charts and Insights
+  <br>
 ![image](https://github.com/user-attachments/assets/941ca8f3-a43b-4e5f-b2a8-8f7012ffd22b)
-<div align="center">
+
 #Age Distribution of Patients
-      </div>
+
    <br>
 The age distribution of the patients in the dataset is shown in the histogram with a KDE curve overlaid. The pattern of the distribution appears to be almost bell-shaped (or normal distribution), meaning most patients fall within a central age range, with fewer younger and older patients on the edges.
   <br>
@@ -113,26 +114,31 @@ The age distribution of the patients in the dataset is shown in the histogram wi
   => In summary, the dataset’s age distribution centers on middle-aged and senior adults, especially those aged 55–60 who are typically at higher risk for heart disease. This concentration makes the dataset relevant for heart disease studies in these age groups, which might also aid in designing preventive health measures and healthcare plans. However, while this dataset gives valuable insights into heart disease risk for middle-aged and older adults, it might require more data from younger and elderly groups to understand heart disease dynamics across the entire age range.
 
 ![image](https://github.com/user-attachments/assets/8a89f3d0-7a51-44de-8d74-bf7493165087)
-**Age Distribution of Heart Disease Cases**
+#Age Distribution of Heart Disease Cases
+ <br>
 This chart shows heart disease cases by age group, with orange indicating patients with heart disease and light blue for those without.
  <br>
   <br>
 **Key Observations**
-50–60 Age Group: Highest rate of heart disease; orange segment dominates.
-60–70 Age Group: Also high in heart disease cases, though slightly fewer than 50–60.
-30–40 & 40–50 Groups: More balanced, with both affected and unaffected individuals.
-70–80 Age Group: Few patients, but most have heart disease, linking age to higher risk.
+ <br>
+- **50–60 Age Group**: Highest rate of heart disease; orange segment dominates.
+- **60–70 Age Group**: Also high in heart disease cases, though slightly fewer than 50–60.
+- **30–40 & 40–50 Groups**: More balanced, with both affected and unaffected individuals.
+- **70–80 Age Group**: Few patients, but most have heart disease, linking age to higher risk.
  <br>
   <br>
 **Age-Related Trends**
+ <br>
 Heart disease risk clearly goes up with age, peaking in the 50–60 range and staying high in older groups.
  <br>
   <br>
 **Implications**
+ <br>
 - **Preventive Focus**: Efforts should target the 50–70 age range with screenings and lifestyle guidance.
 - **Early Screening**: Heart disease, though less common, is present in younger groups, suggesting earlier screenings could help.
 - **Resource Allocation**: Healthcare should focus resources on middle-aged and older adults, especially 50+.
 =>  Heart disease increases with age, especially from 50 onwards. Targeted interventions and resources for these age groups could help manage and reduce heart disease effectively.
+ <br>
 
 ![image](https://github.com/user-attachments/assets/1d7409a2-adf5-4fbe-80ba-2794637550a5)
 Cholesterol level by Heart Disease Status
