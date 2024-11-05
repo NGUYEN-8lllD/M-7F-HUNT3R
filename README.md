@@ -86,10 +86,10 @@
 - **HeartDisease:** output class [1: heart disease, 0: Normal]
 
 <div align="center">
-  </div>
   
 # III. Charts and Insights
-  <br>
+  </div>
+  
 ![image](https://github.com/user-attachments/assets/941ca8f3-a43b-4e5f-b2a8-8f7012ffd22b)
 
 ## Age Distribution of Patients
