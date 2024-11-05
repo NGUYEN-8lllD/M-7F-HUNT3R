@@ -10,9 +10,9 @@
 
 <ul>
 <strong>Coronary Artery heart Disease</strong>
-<h5>Subject: Data Science</h5>
-<h5>Class: MAS2</h5>
-<h5>Lecturer: Dr. Emmanuel Lance Christopher VI M. Plan</h5>
+<h4>Subject: Data Science</h4>
+<h4>Class: MAS2</h4>
+<h4>Lecturer: Dr. Emmanuel Lance Christopher VI M. Plan</h4>
 </ul>
 
 <h1>Team Member</h1> 
