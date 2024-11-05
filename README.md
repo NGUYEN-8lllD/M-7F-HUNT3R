@@ -239,14 +239,14 @@ This scatter plot shows how age and maximum heart rate relate to heart disease. 
 
 **Key Observations**
 
-* Age and Heart Disease: Heart disease cases (orange dots) are mostly among older patients, especially those over 50. Younger patients are more likely to be without heart disease (blue dots).
-* Max Heart Rate and Heart Disease: Patients without heart disease (blue) tend to have higher max heart rates, often around 150 or more, regardless of age. Those with heart disease (orange) usually have lower max heart rates, often below 140, especially as they get older.
-* Trend with Age: Max heart rate decreases as age increases, which is normal, but this decrease is more noticeable in heart disease patients, where older individuals tend to have even lower max heart rates.
+* **Age and Heart Disease:** Heart disease cases (orange dots) are mostly among older patients, especially those over 50. Younger patients are more likely to be without heart disease (blue dots).
+* **Max Heart Rate and Heart Disease:** Patients without heart disease (blue) tend to have higher max heart rates, often around 150 or more, regardless of age. Those with heart disease (orange) usually have lower max heart rates, often below 140, especially as they get older.
+* **Trend with Age:** Max heart rate decreases as age increases, which is normal, but this decrease is more noticeable in heart disease patients, where older individuals tend to have even lower max heart rates.
 
 **Implications**
 
-* Max Heart Rate as a Heart Disease Indicator: A lower max heart rate in older patients could signal higher heart disease risk, suggesting it’s a useful metric for heart health assessment, especially in those over 50.
-* Screening Based on Age and Max Heart Rate: Older patients with low max heart rates might need more intensive screening since they’re at higher risk for heart disease.
+* **Max Heart Rate as a Heart Disease Indicator:** A lower max heart rate in older patients could signal higher heart disease risk, suggesting it’s a useful metric for heart health assessment, especially in those over 50.
+* **Screening Based on Age and Max Heart Rate:** Older patients with low max heart rates might need more intensive screening since they’re at higher risk for heart disease.
   
 **Conclusion**
   
@@ -260,26 +260,55 @@ The scatter plot visualizes cholesterol levels and resting blood pressure among 
 
 **Key Observations**
 
-* Cholesterol Levels: The majority of patients, regardless of heart disease status, have cholesterol levels between 150 and 300 mg/dL. Cases with cholesterol levels reaching up to 600 mg/dL are uncommon.
+* **Cholesterol Levels:** The majority of patients, regardless of heart disease status, have cholesterol levels between 150 and 300 mg/dL. Cases with cholesterol levels reaching up to 600 mg/dL are uncommon.
 
-* Resting Blood Pressure: Blood pressure ranges from 100 to 160 mmHg for both groups. There is no significant difference in blood pressure levels between patients with and without heart disease, as their ranges overlap.
+* **Resting Blood Pressure:** Blood pressure ranges from 100 to 160 mmHg for both groups. There is no significant difference in blood pressure levels between patients with and without heart disease, as their ranges overlap.
 
-* Outliers: Some patients show very low cholesterol levels, close to zero, likely due to missing or erroneous data.
+* **Outliers:** Some patients show very low cholesterol levels, close to zero, likely due to missing or erroneous data.
 
-* No Clear Separation: Cholesterol and blood pressure levels do not distinctly separate the two groups, indicating that these factors alone are insufficient for predicting heart disease.
+* **No Clear Separation:** Cholesterol and blood pressure levels do not distinctly separate the two groups, indicating that these factors alone are insufficient for predicting heart disease.
 
 **Implications**
 
-* Combined Risk Factors: Cholesterol and blood pressure should be analyzed alongside other factors, such as age and chest pain type, for a more accurate heart disease risk assessment.
+* **Combined Risk Factors:** Cholesterol and blood pressure should be analyzed alongside other factors, such as age and chest pain type, for a more accurate heart disease risk assessment.
 
-* Data Cleaning: The presence of low cholesterol outliers highlights the need for data cleaning to improve accuracy.
+* **Data Cleaning:** The presence of low cholesterol outliers highlights the need for data cleaning to improve accuracy.
 
 **Conclusion**
 
 Higher cholesterol and resting blood pressure levels are associated with heart disease, but they are not standalone predictors. A comprehensive risk assessment must consider multiple factors, and addressing data anomalies will enhance the reliability of the analysis.
 
 ![image](https://github.com/user-attachments/assets/67920a28-e8d4-4aee-b9da-766cc47458b1)
-Shows the distribution of cholesterol levels 
+
+## Cholesterol Distribution in Heart Disease Patients
+
+This histogram with KDE overlays illustrates cholesterol levels among patients with and without heart disease. The x-axis represents cholesterol levels, while the y-axis shows patient count. Orange bars signify patients with heart disease, and blue bars represent those without.
+
+**Key Observations**
+
+Cholesterol Levels Near Zero: There’s a notable number of patients with cholesterol levels close to zero, all represented by the orange bar (patients with heart disease). This is likely due to missing or incorrect data, as zero cholesterol isn’t realistic.
+
+**Typical Cholesterol Distribution:**
+
+* **Without Heart Disease (blue):** Peaks around 200–250 mg/dL, which is in the normal to borderline-high range.
+
+* **With Heart Disease (orange):** Peaks in the same range but with a wider spread, often extending above 250 mg/dL.
+
+* **Higher Cholesterol and Heart Disease:** Cholesterol levels over 250 mg/dL are more common in heart disease patients, with some cases even exceeding 400 mg/dL.
+
+* **Overlap in Ranges:** Both groups overlap significantly in the 150–250 mg/dL range, indicating that cholesterol levels alone do not clearly separate the groups.
+
+**Implications**
+
+* **Data Cleaning:** The instances of zero cholesterol suggest data quality issues that could affect the results. These values may need to be corrected or removed.
+
+* **Cholesterol as a Risk Indicator:** Higher cholesterol levels are more common in heart disease patients, but due to the overlap, it’s best to consider cholesterol alongside other risk factors for a more accurate assessment.
+
+* **Managing High Cholesterol:** Given its prevalence in heart disease cases, managing high cholesterol could be key to preventing and controlling heart disease.
+
+**Conclusion**
+
+High cholesterol is more prevalent among heart disease patients; however, because there is an overlap with patients without heart disease, cholesterol alone isn't a standalone predictor. Elevated cholesterol can still warrant closer monitoring, especially when combined with other risk factors. Additionally, near-zero values should be checked for accuracy to prevent skewed analysis.
 
 ![image](https://github.com/user-attachments/assets/ff231f41-5dff-4bb5-9cde-bac7cad81781)
 ROC Curve - KNN
