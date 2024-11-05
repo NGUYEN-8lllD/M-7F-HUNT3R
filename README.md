@@ -83,10 +83,7 @@
 * **ST_Slope:** the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
 * **HeartDisease:** output class [1: heart disease, 0: Normal]
 
-<div align="center">
-    
-# III. Charts and Insights
-  </div>
+<h1 align="center">III. Charts and Insights</h1>
   
 ![image](https://github.com/user-attachments/assets/941ca8f3-a43b-4e5f-b2a8-8f7012ffd22b)
 
