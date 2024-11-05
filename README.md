@@ -17,10 +17,6 @@
 
 # Team Member 
 
-![image](https://github.com/user-attachments/assets/b74ef97e-0826-4a53-94c5-641db8353f3e)
-.
-
-
 <table>
   <tr>
     <th>Student Number</th>
@@ -59,7 +55,6 @@
   <tr>
     <td>22080344</td>
     <td>Nguyễn Công Toàn</td>
-    <td></td>
     <td></td>
     <td>100%</td>
   </tr>
