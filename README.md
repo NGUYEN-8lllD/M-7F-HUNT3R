@@ -21,6 +21,14 @@
 .
 
 
+| Student Number | Student Name          | Tasks Done                     | Remarks by Leader          | Student Evaluation |
+|----------------|-----------------------|--------------------------------|----------------------------|---------------------|
+| 22080306       | Nguyễn Khoa Đàm       | 2 Charts                       |                            | 100%               |
+| 22080314       | Nguyễn Thái Hoàng (Leader) | Introduction and Conclusion |                            | 100%               |
+| 22080327       | Bùi Tấn Minh          | 1 Chart                        | Attended 3/5 meetings      | 80%                |
+| 22080335       | Trần Vũ Hoàng Nguyên  | 3 Charts                       |                            | 100%               |
+| 22080344       | Nguyễn Công Toàn      |                                |                            | 100%               |
+
 # I. Introduction
 
 
