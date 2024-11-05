@@ -141,7 +141,34 @@ Heart disease risk clearly goes up with age, peaking in the 50–60 range and st
  <br>
 
 ![image](https://github.com/user-attachments/assets/1d7409a2-adf5-4fbe-80ba-2794637550a5)
-Cholesterol level by Heart Disease Status
+#Cholesterol level by Heart Disease Status
+ <br>
+This box plot shows cholesterol levels for patients with (1) and without (0) heart disease. The y-axis represents cholesterol levels.
+ <br>
+  <br>
+**Key Observations**
+  <br>
+- **Median Levels:**
+* Patients without heart disease have a median cholesterol slightly above 200 mg/dL.
+* Patients with heart disease have a somewhat higher median, suggesting elevated cholesterol might be linked to heart disease.
+- **Distribution:**
+* Non-heart disease patients have a tighter range (IQR), with most cholesterol values between 175 and 275 mg/dL.
+* Heart disease patients show a broader spread, with values reaching up to 350 mg/dL, indicating more cholesterol variability in this group.
+- **Outliers:**
+** The non-heart disease group has more extreme outliers, with some very high (above 400 mg/dL) and low (below 100 mg/dL) values.
+** The heart disease group has fewer outliers but a generally wider spread, showing that high cholesterol is common here.
+  <br>
+    <br>
+**Implications**
+- **Cholesterol Management:** The higher median and broader spread in the heart disease group imply that controlling cholesterol could help reduce risk. Lifestyle changes and medications could be useful for patients with elevated levels.
+- **Comprehensive Screening:** Outliers suggest cholesterol alone isn’t enough to predict heart disease accurately. Screening for other risk factors (like blood pressure) would give a fuller picture.
+- **Age and Lifestyle Impact:** The variability in cholesterol, especially among heart disease patients, might reflect age or lifestyle factors. Targeted programs based on these factors could improve heart disease prevention.
+ <br>
+  <br>
+**Conclusion**
+Higher cholesterol levels are linked to a higher risk of heart disease, but they’re not the only factor. Heart disease patients generally have a broader and higher range of cholesterol, emphasizing the importance of cholesterol management. However, a well-rounded approach considering other factors (age, lifestyle) could be more effective for prevention.
+
+
 
 ![image](https://github.com/user-attachments/assets/a8f75074-954d-4ed5-911e-8f0a33b795e2)
 The distribution of different chest pain types
