@@ -236,13 +236,13 @@ This bar chart shows how fasting blood sugar levels relate to heart disease. On 
 **Age and Max Heart Rate in Relation to Heart Disease:**
 
 This scatter plot shows how age and maximum heart rate relate to heart disease. Each dot represents a patient, with blue for patients without heart disease and orange for those with heart disease.
-<br>
+
 **Key Observations**
-</br>
+
 * Age and Heart Disease: Heart disease cases (orange dots) are mostly among older patients, especially those over 50. Younger patients are more likely to be without heart disease (blue dots).
 * Max Heart Rate and Heart Disease: Patients without heart disease (blue) tend to have higher max heart rates, often around 150 or more, regardless of age. Those with heart disease (orange) usually have lower max heart rates, often below 140, especially as they get older.
 * Trend with Age: Max heart rate decreases as age increases, which is normal, but this decrease is more noticeable in heart disease patients, where older individuals tend to have even lower max heart rates.
-<br>
+
 **Implications**
 
 * Max Heart Rate as a Heart Disease Indicator: A lower max heart rate in older patients could signal higher heart disease risk, suggesting it’s a useful metric for heart health assessment, especially in those over 50.
