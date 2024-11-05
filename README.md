@@ -69,7 +69,7 @@
 * People who already have CVD or are at high risk—maybe because they have high blood pressure, diabetes, high cholesterol, or already have the disease—need to be detected early and managed. Using a machine learning model could help a lot in finding and handling these risks.
 
 # II. Data Discussion
-
+</div>
 
 * **Age:** age of the patient [years]
 * **Sex:** sex of the patient [M: Male, F: Female]
