@@ -89,9 +89,8 @@
 <div align="center">
   
 # III. Data Cleaning
-![image](https://github.com/user-attachments/assets/8380c6ab-24e9-4a27-84cd-77063058214b)
 
-The data is already cleaned
+Age Distribution of Patients
 
 # IV. Charts and Insights
 **1. Smoking vs. Medical Charges**
