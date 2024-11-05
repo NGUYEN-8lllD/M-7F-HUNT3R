@@ -151,15 +151,15 @@ This box plot shows cholesterol levels for patients with (1) and without (0) hea
   
 **Key Observations**
   <br>
-- **Median Levels:**
- * Patients without heart disease have a median cholesterol slightly above 200 mg/dL.
- * Patients with heart disease have a somewhat higher median, suggesting elevated cholesterol might be linked to heart disease.
-- **Distribution:**
- * Non-heart disease patients have a tighter range (IQR), with most cholesterol values between 175 and 275 mg/dL.
- * Heart disease patients show a broader spread, with values reaching up to 350 mg/dL, indicating more cholesterol variability in this group.
-- **Outliers:**
- * The non-heart disease group has more extreme outliers, with some very high (above 400 mg/dL) and low (below 100 mg/dL) values.
- * The heart disease group has fewer outliers but a generally wider spread, showing that high cholesterol is common here.
+* **Median Levels:**
+  * Patients without heart disease have a median cholesterol slightly above 200 mg/dL.
+  * Patients with heart disease have a somewhat higher median, suggesting elevated cholesterol might be linked to heart disease.
+* **Distribution:**
+  * Non-heart disease patients have a tighter range (IQR), with most cholesterol values between 175 and 275 mg/dL.
+  * Heart disease patients show a broader spread, with values reaching up to 350 mg/dL, indicating more cholesterol variability in this group.
+* **Outliers:**
+  * The non-heart disease group has more extreme outliers, with some very high (above 400 mg/dL) and low (below 100 mg/dL) values.
+  * The heart disease group has fewer outliers but a generally wider spread, showing that high cholesterol is common here.
   <br>
     <br>
 **Implications**
@@ -180,7 +180,7 @@ This box plot shows cholesterol levels for patients with (1) and without (0) hea
   <br>
 This bar chart shows the distribution of chest pain types among patients with and without heart disease. Each chest pain type (ASY, ATA, NAP, TA) is on the x-axis, while the y-axis shows the number of patients. Orange represents those with heart disease; blue represents those without.
   <br>
-    <br>
+    
 **Key Observations**
 
 - **ASY (Atypical Angina)**: Mostly linked to heart disease, as shown by the dominant orange bar. Very few ASY patients don’t have heart disease, suggesting it’s a strong indicator of heart disease.
@@ -238,11 +238,14 @@ This bar chart shows how fasting blood sugar levels relate to heart disease. On 
 This scatter plot shows how age and maximum heart rate relate to heart disease. Each dot represents a patient, with blue for patients without heart disease and orange for those with heart disease.
 <br>
 **Key Observations**
+</br>
 * Age and Heart Disease: Heart disease cases (orange dots) are mostly among older patients, especially those over 50. Younger patients are more likely to be without heart disease (blue dots).
 * Max Heart Rate and Heart Disease: Patients without heart disease (blue) tend to have higher max heart rates, often around 150 or more, regardless of age. Those with heart disease (orange) usually have lower max heart rates, often below 140, especially as they get older.
 * Trend with Age: Max heart rate decreases as age increases, which is normal, but this decrease is more noticeable in heart disease patients, where older individuals tend to have even lower max heart rates.
 <br>
 **Implications**
+</br>
+
 * Max Heart Rate as a Heart Disease Indicator: A lower max heart rate in older patients could signal higher heart disease risk, suggesting it’s a useful metric for heart health assessment, especially in those over 50.
 * Screening Based on Age and Max Heart Rate: Older patients with low max heart rates might need more intensive screening since they’re at higher risk for heart disease.
 **Conclusion**
