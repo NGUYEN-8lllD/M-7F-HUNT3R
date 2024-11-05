@@ -15,7 +15,7 @@
 <li>Lecturer: Dr. Emmanuel Lance Christopher VI M. Plan</li>
 </ul>
 
-# Team Member 
+<header>Team Member</header> 
 
 <table>
   <tr>
