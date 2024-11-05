@@ -36,6 +36,7 @@
     <td>22080314</td>
     <td>Nguyễn Thái Hoàng (Leader)</td>
     <td>Introduction and Conclusion</td>
+    <td></td>
     <td>100%</td>
   </tr>
   <tr>
