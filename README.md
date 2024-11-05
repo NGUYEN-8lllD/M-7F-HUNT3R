@@ -244,10 +244,10 @@ This scatter plot shows how age and maximum heart rate relate to heart disease. 
 * Trend with Age: Max heart rate decreases as age increases, which is normal, but this decrease is more noticeable in heart disease patients, where older individuals tend to have even lower max heart rates.
 <br>
 **Implications**
-</br>
 
 * Max Heart Rate as a Heart Disease Indicator: A lower max heart rate in older patients could signal higher heart disease risk, suggesting it’s a useful metric for heart health assessment, especially in those over 50.
 * Screening Based on Age and Max Heart Rate: Older patients with low max heart rates might need more intensive screening since they’re at higher risk for heart disease.
+  
 **Conclusion**
   
 This chart shows that lower max heart rates are linked to heart disease, especially in older adults. Tracking max heart rate with age could help spot at-risk individuals, supporting early action for heart disease prevention.
