@@ -39,7 +39,7 @@
   <tr>
     <td>22080314</td>
     <td>Nguyễn Thái Hoàng (Leader)</td>
-    <td colspan="2">Introduction and Conclusion</td>
+    <td>Introduction and Conclusion</td>
     <td>100%</td>
   </tr>
   <tr>
@@ -52,7 +52,7 @@
   <tr>
     <td>22080335</td>
     <td>Trần Vũ Hoàng Nguyên</td>
-    <td>3 Charts</td>
+    <td rowspan='2'>3 Charts</td>
     <td></td>
     <td>100%</td>
   </tr>
