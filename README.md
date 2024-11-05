@@ -23,16 +23,12 @@
 
 # I. Introduction
 
-"Chest pain type TA" stands for Typical Angina
-ATA thường được hiểu là "American Thyroid Association" 
-Đau ngực NAP thường được hiểu là "New Angina Pectoris,"
 
 
-- The cost of healthcare is going up everywhere, and it's a big problem for many countries. To help fix this, we need to know what makes medical expenses high. This is important for insurance companies, healthcare providers, and the government. The report looks at the "Medical Cost Personal Dataset." This dataset shows health insurance costs based on things like age, sex, BMI, smoking, and where people live. It has 1,338 records with 7 different factors that affect insurance costs. These factors include age, region, smoking habits, and BMI. The main focus is on "charges," which means the medical costs billed. The data comes from Kaggle.
-- The goal of this project is to analyze the dataset to find important patterns and relationships between different factors and medical costs. The analysis will include descriptive statistics, visualizations, and a prediction model to estimate medical expenses based on these factors. The findings could help insurance companies better understand individuals with high medical costs, which can support better risk management and adjust pricing strategies for premiums. 
+- Cardiovascular diseases (CVDs) are like the top reason people die worldwide, killing about 17.9 million people every year, which is 31% of all deaths. Out of these, like 4 out of 5 deaths are from heart attacks and strokes, and a third of them happen to people under 70, which is considered early. Heart failure is a usual problem caused by CVDs, and this dataset has 11 features to try to predict if someone might get heart disease.
+
+- People who already have CVD or are at high risk—maybe because they have high blood pressure, diabetes, high cholesterol, or already have the disease—need to be detected early and managed. Using a machine learning model could help a lot in finding and handling these risks.
 <br>
-
-- This data can be instrumental for analyzing sales performance, understanding customer preferences, and making informed business decisions.
 
 # II. Data Discussion
 </div>
