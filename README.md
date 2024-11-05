@@ -97,7 +97,7 @@
    <br>
 The age distribution of the patients in the dataset is shown in the histogram with a KDE curve overlaid. The pattern of the distribution appears to be almost bell-shaped (or normal distribution), meaning most patients fall within a central age range, with fewer younger and older patients on the edges.
   <br>
-   <br>
+  
  **Key Observations**
    <br>
 - **Age Range:** The dataset includes patients mostly between 30 and 75 years. We can see there are barely any patients under 30 or over 75 years, as indicated by the low bars at the edges.
@@ -119,6 +119,7 @@ The age distribution of the patients in the dataset is shown in the histogram wi
 This chart shows heart disease cases by age group, with orange indicating patients with heart disease and light blue for those without.
  <br>
   <br>
+  
 **Key Observations**
  <br>
 - **50–60 Age Group**: Highest rate of heart disease; orange segment dominates.
@@ -147,6 +148,7 @@ Heart disease risk clearly goes up with age, peaking in the 50–60 range and st
 This box plot shows cholesterol levels for patients with (1) and without (0) heart disease. The y-axis represents cholesterol levels.
  <br>
   <br>
+  
 **Key Observations**
   <br>
 - **Median Levels:**
@@ -194,7 +196,8 @@ This bar chart shows the distribution of chest pain types among patients with an
 - **Resource Allocation**: Resources can be better managed by focusing on ASY patients for immediate care, while NAP and ATA patients might follow a standard pathway.
   <br>
     <br>
-**Conclusion: **
+    
+**Conclusion:**
       <br>
  => Atypical angina (ASY) is closely linked to heart disease, making it useful for early risk assessment. Chest pain type can help clinicians prioritize patients for faster diagnosis, especially those with ASY.
 
@@ -206,6 +209,7 @@ This bar chart shows the distribution of chest pain types among patients with an
 This bar chart shows how fasting blood sugar levels relate to heart disease. On the x-axis, 0 means blood sugar ≤120 mg/dl, and 1 means >120 mg/dl. The y-axis shows patient count, with blue for patients without heart disease and orange for those with heart disease.
     <br>
         <br>
+        
 **Key Observations**
 
 - **Normal Fasting Blood Sugar (≤120 mg/dl)**: Most patients have normal blood sugar levels, with a slightly higher count of non-heart disease cases (blue) than heart disease cases (orange). This suggests that normal blood sugar is common in both groups, but those without heart disease slightly outnumber those with it.
