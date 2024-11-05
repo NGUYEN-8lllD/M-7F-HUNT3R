@@ -144,13 +144,11 @@ Heart disease risk clearly goes up with age, peaking in the 50–60 range and st
 
 ![image](https://github.com/user-attachments/assets/1d7409a2-adf5-4fbe-80ba-2794637550a5)
 ## Cholesterol level by Heart Disease Status
- <br>
+
 This box plot shows cholesterol levels for patients with (1) and without (0) heart disease. The y-axis represents cholesterol levels.
- <br>
-  <br>
   
 **Key Observations**
-  <br>
+  
 * **Median Levels:**
   * Patients without heart disease have a median cholesterol slightly above 200 mg/dL.
   * Patients with heart disease have a somewhat higher median, suggesting elevated cholesterol might be linked to heart disease.
@@ -160,74 +158,66 @@ This box plot shows cholesterol levels for patients with (1) and without (0) hea
 * **Outliers:**
   * The non-heart disease group has more extreme outliers, with some very high (above 400 mg/dL) and low (below 100 mg/dL) values.
   * The heart disease group has fewer outliers but a generally wider spread, showing that high cholesterol is common here.
-  <br>
-    <br>
+  
 **Implications**
-- **Cholesterol Management:** The higher median and broader spread in the heart disease group imply that controlling cholesterol could help reduce risk. Lifestyle changes and medications could be useful for patients with elevated levels.
-- **Comprehensive Screening:** Outliers suggest cholesterol alone isn’t enough to predict heart disease accurately. Screening for other risk factors (like blood pressure) would give a fuller picture.
-- **Age and Lifestyle Impact:** The variability in cholesterol, especially among heart disease patients, might reflect age or lifestyle factors. Targeted programs based on these factors could improve heart disease prevention.
- <br>
-  <br>
+
+* **Cholesterol Management:** The higher median and broader spread in the heart disease group imply that controlling cholesterol could help reduce risk. Lifestyle changes and medications could be useful for patients with elevated levels.
+* **Comprehensive Screening:** Outliers suggest cholesterol alone isn’t enough to predict heart disease accurately. Screening for other risk factors (like blood pressure) would give a fuller picture.
+* **Age and Lifestyle Impact:** The variability in cholesterol, especially among heart disease patients, might reflect age or lifestyle factors. Targeted programs based on these factors could improve heart disease prevention.
+ 
 **Conclusion**
-    <br>
+
  => Higher cholesterol levels are linked to a higher risk of heart disease, but they’re not the only factor. Heart disease patients generally have a broader and higher range of cholesterol, emphasizing the importance of cholesterol management. However, a well-rounded approach considering other factors (age, lifestyle) could be more effective for prevention.
 
 
 
 ![image](https://github.com/user-attachments/assets/a8f75074-954d-4ed5-911e-8f0a33b795e2)
-  <br>
+
 ## Chest Pain Type and Heart Disease
-  <br>
+  
 This bar chart shows the distribution of chest pain types among patients with and without heart disease. Each chest pain type (ASY, ATA, NAP, TA) is on the x-axis, while the y-axis shows the number of patients. Orange represents those with heart disease; blue represents those without.
-  <br>
+  
     
 **Key Observations**
 
-- **ASY (Atypical Angina)**: Mostly linked to heart disease, as shown by the dominant orange bar. Very few ASY patients don’t have heart disease, suggesting it’s a strong indicator of heart disease.
-- **ATA (Asymptomatic)**: Primarily associated with patients without heart disease, shown by the large blue bar. Only a few ATA patients have heart disease, so it’s less of a risk indicator.
-- **NAP (Non-Anginal Pain)**: Higher count of patients without heart disease, but some with heart disease. This type is not a major indicator but still relevant.
-- **TA (Typical Angina)**: Roughly equal counts of heart disease and non-heart disease cases, suggesting it's a moderate risk factor.
-  <br>
-    <br>
+* **ASY (Atypical Angina)**: Mostly linked to heart disease, as shown by the dominant orange bar. Very few ASY patients don’t have heart disease, suggesting it’s a strong indicator of heart disease.
+* **ATA (Asymptomatic)**: Primarily associated with patients without heart disease, shown by the large blue bar. Only a few ATA patients have heart disease, so it’s less of a risk indicator.
+* **NAP (Non-Anginal Pain)**: Higher count of patients without heart disease, but some with heart disease. This type is not a major indicator but still relevant.
+* **TA (Typical Angina)**: Roughly equal counts of heart disease and non-heart disease cases, suggesting it's a moderate risk factor.
+  
 **Implications**
 
-- **Risk Assessment**: ASY is a strong heart disease indicator and should prompt further testing. ATA and NAP, however, are less concerning and might not need immediate action.
-- **Diagnostic Prioritization**: Clinicians can use chest pain types to decide who needs urgent testing. ASY patients might be prioritized, while ATA and NAP can be lower priority.
-- **Resource Allocation**: Resources can be better managed by focusing on ASY patients for immediate care, while NAP and ATA patients might follow a standard pathway.
-  <br>
-    <br>
+* **Risk Assessment**: ASY is a strong heart disease indicator and should prompt further testing. ATA and NAP, however, are less concerning and might not need immediate action.
+* **Diagnostic Prioritization**: Clinicians can use chest pain types to decide who needs urgent testing. ASY patients might be prioritized, while ATA and NAP can be lower priority.
+* **Resource Allocation**: Resources can be better managed by focusing on ASY patients for immediate care, while NAP and ATA patients might follow a standard pathway.
     
 **Conclusion:**
-      <br>
+
  => Atypical angina (ASY) is closely linked to heart disease, making it useful for early risk assessment. Chest pain type can help clinicians prioritize patients for faster diagnosis, especially those with ASY.
 
 
 ![image](https://github.com/user-attachments/assets/51811154-b544-4525-a4d1-ffb4d0dda35a)
-    <br>
+   
 ## Fasting Blood Sugar Levels and Heart Disease
-<br>
+
 This bar chart shows how fasting blood sugar levels relate to heart disease. On the x-axis, 0 means blood sugar ≤120 mg/dl, and 1 means >120 mg/dl. The y-axis shows patient count, with blue for patients without heart disease and orange for those with heart disease.
-    <br>
-        <br>
-        
+          
 **Key Observations**
 
-- **Normal Fasting Blood Sugar (≤120 mg/dl)**: Most patients have normal blood sugar levels, with a slightly higher count of non-heart disease cases (blue) than heart disease cases (orange). This suggests that normal blood sugar is common in both groups, but those without heart disease slightly outnumber those with it.
-- **Elevated Fasting Blood Sugar (>120 mg/dl)**: For high blood sugar patients, the majority have heart disease (orange). This shows a strong link between elevated blood sugar and heart disease, as only a few with high blood sugar do not have heart disease.
-- **Overall Correlation**: High fasting blood sugar levels are associated with a higher likelihood of heart disease, making it a potential risk factor. Normal blood sugar levels, on the other hand, are more evenly spread between the groups.
-  <br>
-      <br>
+* **Normal Fasting Blood Sugar (≤120 mg/dl)**: Most patients have normal blood sugar levels, with a slightly higher count of non-heart disease cases (blue) than heart disease cases (orange). This suggests that normal blood sugar is common in both groups, but those without heart disease slightly outnumber those with it.
+* **Elevated Fasting Blood Sugar (>120 mg/dl)**: For high blood sugar patients, the majority have heart disease (orange). This shows a strong link between elevated blood sugar and heart disease, as only a few with high blood sugar do not have heart disease.
+* **Overall Correlation**: High fasting blood sugar levels are associated with a higher likelihood of heart disease, making it a potential risk factor. Normal blood sugar levels, on the other hand, are more evenly spread between the groups.
+  
 **Implications**
-- **Risk Indicator**: Elevated blood sugar (>120 mg/dl) could indicate higher heart disease risk, suggesting that monitoring blood sugar is important for identifying at-risk patients.
-- **Blood Sugar Management**: Since high blood sugar correlates with heart disease, managing blood sugar through diet, lifestyle changes, and medications could help lower risk.
-- **Preventive Care**: Regular screening of fasting blood sugar, especially for those with other risk factors, could be useful in preventing heart disease.
-    <br>
-    <br>
-**Conclusion**:
-      <br>
-   The chart shows a clear link between high blood sugar levels and heart disease. Patients with high blood sugar are mostly in the heart disease group, highlighting the importance of blood sugar control and monitoring as a way to reduce heart disease risk.
-    <br>
 
+* **Risk Indicator**: Elevated blood sugar (>120 mg/dl) could indicate higher heart disease risk, suggesting that monitoring blood sugar is important for identifying at-risk patients.
+* **Blood Sugar Management**: Since high blood sugar correlates with heart disease, managing blood sugar through diet, lifestyle changes, and medications could help lower risk.
+* **Preventive Care**: Regular screening of fasting blood sugar, especially for those with other risk factors, could be useful in preventing heart disease.
+   
+**Conclusion**:
+    
+   The chart shows a clear link between high blood sugar levels and heart disease. Patients with high blood sugar are mostly in the heart disease group, highlighting the importance of blood sugar control and monitoring as a way to reduce heart disease risk.
+   
 
 ![image](https://github.com/user-attachments/assets/1d960389-e380-4e6f-b6cf-e7e7b3a4e80b)
 
