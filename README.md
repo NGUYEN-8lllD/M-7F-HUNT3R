@@ -61,6 +61,7 @@
     <td>100%</td>
   </tr>
 </table>
+<br>
 
 # I. Introduction
 
@@ -95,13 +96,13 @@
 
 The age distribution of the patients in the dataset is shown in the histogram with a KDE curve overlaid. The pattern of the distribution appears to be almost bell-shaped (or normal distribution), meaning most patients fall within a central age range, with fewer younger and older patients on the edges.
   
- **Key Observations**
+ **Key Observations:**
 
 * **Age Range:** The dataset includes patients mostly between 30 and 75 years. We can see there are barely any patients under 30 or over 75 years, as indicated by the low bars at the edges.
 * **Peak Age Group**: The group with the most patients is between 55 and 60 years old, where the count reaches about 120. This suggests that the dataset has a heavy focus on middle-aged to older adults, especially those in their late 50s.
 * **Symmetry**: The distribution is somewhat symmetrical around the peak age, with almost an equal number of patients on either side of the 55–60 range. This might mean the dataset is representative of middle-aged to senior adults but with fewer younger (30s) and very old (70s) patients.
  
-**Implications of the Age Distribution**
+**Implications of the Age Distribution:**
  
 * Focus on Middle-Aged and Older Adults: With most patients between 50 and 70 years old, this dataset aligns with the general trend of heart disease risk, which usually goes up with age. The demographic profile suggests that this dataset is likely geared towards studying heart disease among age groups that are more likely to experience cardiovascular issues. This might be helpful for targeted health measures.
 * Target Population for Heart Disease Analysis: Considering the age distribution, this dataset probably represents a population more at risk for heart disease, which could be useful for healthcare strategies aimed at middle-aged and senior patients. Having a lot of patients in their late 50s might imply that early interventions and risk management could be a focus for this age group.
@@ -114,18 +115,18 @@ The age distribution of the patients in the dataset is shown in the histogram wi
 
 This chart shows heart disease cases by age group, with orange indicating patients with heart disease and light blue for those without.
 
-**Key Observations**
+**Key Observations:**
 
 * **50–60 Age Group**: Highest rate of heart disease; orange segment dominates.
 * **60–70 Age Group**: Also high in heart disease cases, though slightly fewer than 50–60.
 * **30–40 & 40–50 Groups**: More balanced, with both affected and unaffected individuals.
 * **70–80 Age Group**: Few patients, but most have heart disease, linking age to higher risk.
 
-**Age-Related Trends**
+**Age-Related Trends:**
 
 Heart disease risk clearly goes up with age, peaking in the 50–60 range and staying high in older groups.
  
-**Implications**
+**Implications:**
 
 * **Preventive Focus**: Efforts should target the 50–70 age range with screenings and lifestyle guidance.
 * **Early Screening**: Heart disease, though less common, is present in younger groups, suggesting earlier screenings could help.
@@ -150,13 +151,13 @@ This box plot shows cholesterol levels for patients with (1) and without (0) hea
   * The non-heart disease group has more extreme outliers, with some very high (above 400 mg/dL) and low (below 100 mg/dL) values.
   * The heart disease group has fewer outliers but a generally wider spread, showing that high cholesterol is common here.
   
-**Implications**
+**Implications:**
 
 * **Cholesterol Management:** The higher median and broader spread in the heart disease group imply that controlling cholesterol could help reduce risk. Lifestyle changes and medications could be useful for patients with elevated levels.
 * **Comprehensive Screening:** Outliers suggest cholesterol alone isn’t enough to predict heart disease accurately. Screening for other risk factors (like blood pressure) would give a fuller picture.
 * **Age and Lifestyle Impact:** The variability in cholesterol, especially among heart disease patients, might reflect age or lifestyle factors. Targeted programs based on these factors could improve heart disease prevention.
  
-**Conclusion**
+**Conclusion:**
 
  => Higher cholesterol levels are linked to a higher risk of heart disease, but they’re not the only factor. Heart disease patients generally have a broader and higher range of cholesterol, emphasizing the importance of cholesterol management. However, a well-rounded approach considering other factors (age, lifestyle) could be more effective for prevention.
 
@@ -169,14 +170,14 @@ This box plot shows cholesterol levels for patients with (1) and without (0) hea
 This bar chart shows the distribution of chest pain types among patients with and without heart disease. Each chest pain type (ASY, ATA, NAP, TA) is on the x-axis, while the y-axis shows the number of patients. Orange represents those with heart disease; blue represents those without.
   
     
-**Key Observations**
+**Key Observations:**
 
 * **ASY (Atypical Angina)**: Mostly linked to heart disease, as shown by the dominant orange bar. Very few ASY patients don’t have heart disease, suggesting it’s a strong indicator of heart disease.
 * **ATA (Asymptomatic)**: Primarily associated with patients without heart disease, shown by the large blue bar. Only a few ATA patients have heart disease, so it’s less of a risk indicator.
 * **NAP (Non-Anginal Pain)**: Higher count of patients without heart disease, but some with heart disease. This type is not a major indicator but still relevant.
 * **TA (Typical Angina)**: Roughly equal counts of heart disease and non-heart disease cases, suggesting it's a moderate risk factor.
   
-**Implications**
+**Implications:**
 
 * **Risk Assessment**: ASY is a strong heart disease indicator and should prompt further testing. ATA and NAP, however, are less concerning and might not need immediate action.
 * **Diagnostic Prioritization**: Clinicians can use chest pain types to decide who needs urgent testing. ASY patients might be prioritized, while ATA and NAP can be lower priority.
@@ -193,19 +194,19 @@ This bar chart shows the distribution of chest pain types among patients with an
 
 This bar chart shows how fasting blood sugar levels relate to heart disease. On the x-axis, 0 means blood sugar ≤120 mg/dl, and 1 means >120 mg/dl. The y-axis shows patient count, with blue for patients without heart disease and orange for those with heart disease.
           
-**Key Observations**
+**Key Observation:**
 
 * **Normal Fasting Blood Sugar (≤120 mg/dl)**: Most patients have normal blood sugar levels, with a slightly higher count of non-heart disease cases (blue) than heart disease cases (orange). This suggests that normal blood sugar is common in both groups, but those without heart disease slightly outnumber those with it.
 * **Elevated Fasting Blood Sugar (>120 mg/dl)**: For high blood sugar patients, the majority have heart disease (orange). This shows a strong link between elevated blood sugar and heart disease, as only a few with high blood sugar do not have heart disease.
 * **Overall Correlation**: High fasting blood sugar levels are associated with a higher likelihood of heart disease, making it a potential risk factor. Normal blood sugar levels, on the other hand, are more evenly spread between the groups.
   
-**Implications**
+**Implications:**
 
 * **Risk Indicator**: Elevated blood sugar (>120 mg/dl) could indicate higher heart disease risk, suggesting that monitoring blood sugar is important for identifying at-risk patients.
 * **Blood Sugar Management**: Since high blood sugar correlates with heart disease, managing blood sugar through diet, lifestyle changes, and medications could help lower risk.
 * **Preventive Care**: Regular screening of fasting blood sugar, especially for those with other risk factors, could be useful in preventing heart disease.
    
-**Conclusion**:
+**Conclusion:**:
     
    The chart shows a clear link between high blood sugar levels and heart disease. Patients with high blood sugar are mostly in the heart disease group, highlighting the importance of blood sugar control and monitoring as a way to reduce heart disease risk.
    
@@ -218,18 +219,18 @@ This bar chart shows how fasting blood sugar levels relate to heart disease. On 
 
 This scatter plot shows how age and maximum heart rate relate to heart disease. Each dot represents a patient, with blue for patients without heart disease and orange for those with heart disease.
 
-**Key Observations**
+**Key Observations:**
 
 * **Age and Heart Disease:** Heart disease cases (orange dots) are mostly among older patients, especially those over 50. Younger patients are more likely to be without heart disease (blue dots).
 * **Max Heart Rate and Heart Disease:** Patients without heart disease (blue) tend to have higher max heart rates, often around 150 or more, regardless of age. Those with heart disease (orange) usually have lower max heart rates, often below 140, especially as they get older.
 * **Trend with Age:** Max heart rate decreases as age increases, which is normal, but this decrease is more noticeable in heart disease patients, where older individuals tend to have even lower max heart rates.
 
-**Implications**
+**Implications:**
 
 * **Max Heart Rate as a Heart Disease Indicator:** A lower max heart rate in older patients could signal higher heart disease risk, suggesting it’s a useful metric for heart health assessment, especially in those over 50.
 * **Screening Based on Age and Max Heart Rate:** Older patients with low max heart rates might need more intensive screening since they’re at higher risk for heart disease.
   
-**Conclusion**
+**Conclusion:**
   
 This chart shows that lower max heart rates are linked to heart disease, especially in older adults. Tracking max heart rate with age could help spot at-risk individuals, supporting early action for heart disease prevention.
 
@@ -239,7 +240,7 @@ This chart shows that lower max heart rates are linked to heart disease, especia
 
 The scatter plot visualizes cholesterol levels and resting blood pressure among patients, differentiated by blue dots for those without heart disease and green dots for those with heart disease.
 
-**Key Observations**
+**Key Observations:**
 
 * **Cholesterol Levels:** The majority of patients, regardless of heart disease status, have cholesterol levels between 150 and 300 mg/dL. Cases with cholesterol levels reaching up to 600 mg/dL are uncommon.
 
@@ -249,13 +250,13 @@ The scatter plot visualizes cholesterol levels and resting blood pressure among 
 
 * **No Clear Separation:** Cholesterol and blood pressure levels do not distinctly separate the two groups, indicating that these factors alone are insufficient for predicting heart disease.
 
-**Implications**
+**Implications:**
 
 * **Combined Risk Factors:** Cholesterol and blood pressure should be analyzed alongside other factors, such as age and chest pain type, for a more accurate heart disease risk assessment.
 
 * **Data Cleaning:** The presence of low cholesterol outliers highlights the need for data cleaning to improve accuracy.
 
-**Conclusion**
+**Conclusion:**
 
 Higher cholesterol and resting blood pressure levels are associated with heart disease, but they are not standalone predictors. A comprehensive risk assessment must consider multiple factors, and addressing data anomalies will enhance the reliability of the analysis.
 
@@ -265,7 +266,7 @@ Higher cholesterol and resting blood pressure levels are associated with heart d
 
 This histogram with KDE overlays illustrates cholesterol levels among patients with and without heart disease. The x-axis represents cholesterol levels, while the y-axis shows patient count. Orange bars signify patients with heart disease, and blue bars represent those without.
 
-**Key Observations**
+**Key Observations:**
 
 Cholesterol Levels Near Zero: There’s a notable number of patients with cholesterol levels close to zero, all represented by the orange bar (patients with heart disease). This is likely due to missing or incorrect data, as zero cholesterol isn’t realistic.
 
@@ -279,7 +280,7 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 
 * **Overlap in Ranges:** Both groups overlap significantly in the 150–250 mg/dL range, indicating that cholesterol levels alone do not clearly separate the groups.
 
-**Implications**
+**Implications:**
 
 * **Data Cleaning:** The instances of zero cholesterol suggest data quality issues that could affect the results. These values may need to be corrected or removed.
 
@@ -287,7 +288,7 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 
 * **Managing High Cholesterol:** Given its prevalence in heart disease cases, managing high cholesterol could be key to preventing and controlling heart disease.
 
-**Conclusion**
+**Conclusion:**
 
 High cholesterol is more prevalent among heart disease patients; however, because there is an overlap with patients without heart disease, cholesterol alone isn't a standalone predictor. Elevated cholesterol can still warrant closer monitoring, especially when combined with other risk factors. Additionally, near-zero values should be checked for accuracy to prevent skewed analysis.
 
@@ -312,10 +313,43 @@ High cholesterol is more prevalent among heart disease patients; however, becaus
 **Summary:** KNN is reliable for predicting heart disease, with solid recall for spotting non-heart disease cases (87%) and high precision (90%) for catching heart disease. Great choice if you need a consistent classifier.
 
 ![image](https://github.com/user-attachments/assets/e26c3638-5bd2-4aed-88be-513226894cc4)
-ROC Curve - Logistic Regression
+
+## Logistic Regression Model Performance
+
+* **Accuracy:** Same as KNN, with 85.32% accuracy.
+* **Classification Metrics:**
+    * **No Heart Disease (Class 0):**
+        * **Precision:** 80%
+        * **Recall:** 87%
+        * **F1-Score:** 0.83
+    * **Heart Disease (Class 1):**
+        * **Precision:** 90%
+        * **Recall:** 84%
+        * **F1-Score:** 0.87
+
+* **Averages:** Macro and weighted averages around 0.85, consistent across both classes.
+* **AUC:** Slightly better than KNN with an AUC of 0.93.
+
+**Summary:** Logistic Regression performs about the same as KNN in accuracy but edges out with a higher AUC, making it slightly better for spotting heart disease and non-heart disease cases. Ideal for applications where diagnostic accuracy matters a bit more.
 
 ![image](https://github.com/user-attachments/assets/d59e4292-22d7-4eeb-aee1-6325ae34977c)
-ROC Curve - Linear Regression
+
+## Linear Regression Model Performance
+
+* **MSE:** Got a mean squared error of 0.114, showing how far off the predicted values are on average.
+* **Accuracy (with 0.5 threshold):** Achieved 84.29% accuracy.
+    * **Classification Metrics:**
+        * **No Heart Disease (Class 0):**
+        * **Precision:** 78%
+        * **Recall:** 87%
+        * **F1-Score:** 0.82
+    * **Heart Disease (Class 1):**
+        * **Precision:** 90%
+        * **Recall:** 82%
+        * **F1-Score:** 0.86
+
+* **Averages:** Macro and weighted averages hover around 0.84, so it’s balanced but slightly lower than the other models.
+* **AUC:** Scored an AUC of 0.92, close to KNN but under Logistic Regression’s AUC of 0.93.
 
 
 
