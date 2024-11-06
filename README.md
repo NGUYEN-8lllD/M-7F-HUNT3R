@@ -203,7 +203,7 @@ This bar chart shows how fasting blood sugar levels relate to heart disease. On 
    
 **Conclusion:**:
     
-   The chart shows a clear link between high blood sugar levels and heart disease. Patients with high blood sugar are mostly in the heart disease group, highlighting the importance of blood sugar control and monitoring as a way to reduce heart disease risk.
+=> The chart shows a clear link between high blood sugar levels and heart disease. Patients with high blood sugar are mostly in the heart disease group, highlighting the importance of blood sugar control and monitoring as a way to reduce heart disease risk.
    
 
 ![image](https://github.com/user-attachments/assets/1d960389-e380-4e6f-b6cf-e7e7b3a4e80b)
@@ -227,7 +227,7 @@ This scatter plot shows how age and maximum heart rate relate to heart disease. 
   
 **Conclusion:**
   
-**=>** This chart shows that lower max heart rates are linked to heart disease, especially in older adults. Tracking max heart rate with age could help spot at-risk individuals, supporting early action for heart disease prevention.
+=> This chart shows that lower max heart rates are linked to heart disease, especially in older adults. Tracking max heart rate with age could help spot at-risk individuals, supporting early action for heart disease prevention.
 
 ![image](https://github.com/user-attachments/assets/383202ca-dc13-4c37-abf8-1e086e5d8f27)
 
@@ -253,7 +253,7 @@ The scatter plot visualizes cholesterol levels and resting blood pressure among 
 
 **Conclusion:**
 
-Higher cholesterol and resting blood pressure levels are associated with heart disease, but they are not standalone predictors. A comprehensive risk assessment must consider multiple factors, and addressing data anomalies will enhance the reliability of the analysis.
+=> Higher cholesterol and resting blood pressure levels are associated with heart disease, but they are not standalone predictors. A comprehensive risk assessment must consider multiple factors, and addressing data anomalies will enhance the reliability of the analysis.
 
 ![image](https://github.com/user-attachments/assets/67920a28-e8d4-4aee-b9da-766cc47458b1)
 
@@ -285,7 +285,7 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 
 **Conclusion:**
 
-High cholesterol is more prevalent among heart disease patients; however, because there is an overlap with patients without heart disease, cholesterol alone isn't a standalone predictor. Elevated cholesterol can still warrant closer monitoring, especially when combined with other risk factors. Additionally, near-zero values should be checked for accuracy to prevent skewed analysis.
+=> High cholesterol is more prevalent among heart disease patients; however, because there is an overlap with patients without heart disease, cholesterol alone isn't a standalone predictor. Elevated cholesterol can still warrant closer monitoring, especially when combined with other risk factors. Additionally, near-zero values should be checked for accuracy to prevent skewed analysis.
 
 ![image](https://github.com/user-attachments/assets/ff231f41-5dff-4bb5-9cde-bac7cad81781)
 
