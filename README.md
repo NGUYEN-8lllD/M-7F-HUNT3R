@@ -154,8 +154,7 @@ This box plot shows cholesterol levels for patients with (1) and without (0) hea
  
 **Conclusion:**
 
- => Higher cholesterol levels are linked to a higher risk of heart disease, but they’re not the only factor. Heart disease patients generally have a broader and higher range of cholesterol, emphasizing the importance of cholesterol management. However, a well-rounded approach considering other factors (age, lifestyle) could be more effective for prevention.
-
+ => High cholesterol is connected to a higher risk of heart disease, but it’s not the only thing to consider. People with heart disease often have higher cholesterol, which shows why managing it is important. However, taking other factors into account, like age and lifestyle, might be an even better way to prevent heart disease in the future.
 
 
 ![image](https://github.com/user-attachments/assets/a8f75074-954d-4ed5-911e-8f0a33b795e2)
@@ -187,24 +186,24 @@ This bar chart shows the distribution of chest pain types among patients with an
    
 ## Fasting Blood Sugar Levels and Heart Disease
 
-This bar chart shows how fasting blood sugar levels relate to heart disease. On the x-axis, 0 means blood sugar ≤120 mg/dl, and 1 means >120 mg/dl. The y-axis shows patient count, with blue for patients without heart disease and orange for those with heart disease.
-          
+
+The bar chart shows the connection between fasting blood sugar levels and heart disease. On the x-axis, have zero person with blood sugar levels 120 mg/dl or lower, and 1 means people with blood sugar levels above 120 mg/dl. The y-axis shows the number of patients. Blue bars show people without heart disease, and orange bars show people with heart disease. This chart helps us see if higher blood sugar is related to heart disease.
+
 **Key Observation:**
 
 * **Normal Fasting Blood Sugar (≤120 mg/dl)**: Most patients have normal blood sugar levels, with a slightly higher count of non-heart disease cases (blue) than heart disease cases (orange). This suggests that normal blood sugar is common in both groups, but those without heart disease slightly outnumber those with it.
 * **Elevated Fasting Blood Sugar (>120 mg/dl)**: For high blood sugar patients, the majority have heart disease (orange). This shows a strong link between elevated blood sugar and heart disease, as only a few with high blood sugar do not have heart disease.
 * **Overall Correlation**: High fasting blood sugar levels are associated with a higher likelihood of heart disease, making it a potential risk factor. Normal blood sugar levels, on the other hand, are more evenly spread between the groups.
-  
+ 
 **Implications:**
 
 * **Risk Indicator**: Elevated blood sugar (>120 mg/dl) could indicate higher heart disease risk, suggesting that monitoring blood sugar is important for identifying at-risk patients.
 * **Blood Sugar Management**: Since high blood sugar correlates with heart disease, managing blood sugar through diet, lifestyle changes, and medications could help lower risk.
 * **Preventive Care**: Regular screening of fasting blood sugar, especially for those with other risk factors, could be useful in preventing heart disease.
-   
+ 
 **Conclusion:**:
-    
+ 
 => The chart shows a clear link between high blood sugar levels and heart disease. Patients with high blood sugar are mostly in the heart disease group, highlighting the importance of blood sugar control and monitoring as a way to reduce heart disease risk.
-   
 
 ![image](https://github.com/user-attachments/assets/1d960389-e380-4e6f-b6cf-e7e7b3a4e80b)
 
@@ -237,7 +236,7 @@ The scatter plot visualizes cholesterol levels and resting blood pressure among 
 
 **Key Observations:**
 
-* **Cholesterol Levels:** The majority of patients, regardless of heart disease status, have cholesterol levels between 150 and 300 mg/dL. Cases with cholesterol levels reaching up to 600 mg/dL are uncommon.
+* **Cholesterol Levels:** Most of the patients, regardless of heart disease status are having cholesterol levels reaching 150 to 300 mg/dL. In some cases the cholesterol levels reaching up to 600 mg/dL are rare.
 
 * **Resting Blood Pressure:** Blood pressure ranges from 100 to 160 mmHg for both groups. There is no significant difference in blood pressure levels between patients with and without heart disease, as their ranges overlap.
 
@@ -253,7 +252,7 @@ The scatter plot visualizes cholesterol levels and resting blood pressure among 
 
 **Conclusion:**
 
-=> Higher cholesterol and resting blood pressure levels are associated with heart disease, but they are not standalone predictors. A comprehensive risk assessment must consider multiple factors, and addressing data anomalies will enhance the reliability of the analysis.
+=> High cholesterol and resting blood pressure levels are linked to heart disease, but they are not the only predictors. A full risk check needs to look at many factors together. Fixing any unusual data will also make the analysis more reliable.
 
 ![image](https://github.com/user-attachments/assets/67920a28-e8d4-4aee-b9da-766cc47458b1)
 
@@ -347,61 +346,8 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 * **AUC:** Scored an AUC of 0.92, close to KNN but under Logistic Regression’s AUC of 0.93.
 
 
+# IV. Conclusion
+In conclusion, this analysis shows that heart disease risk is linked to several factors, such as age, cholesterol, blood pressure, blood sugar, and chest pain type. The results suggest that middle-aged and older adults, especially those with high cholesterol, high blood sugar, or certain chest pain types, have a higher risk. However, no single factor alone can predict heart disease. Looking at multiple factors together gives a clearer understanding.
 
-# IV. Charts and Insights
-**1. Smoking vs. Medical Charges**
-Smokers pay way more. The box plot shows smokers have much higher charges than non-smokers. Recommendation: charge smokers more.
-![image](https://github.com/user-attachments/assets/400166d9-384b-4f84-80c3-cfa311181709)
-<br>
-
-**Chart Analysis: Smoking vs Medical Charges**
-
-
-**Which One is Highest?**
-- **Smokers** pay significantly higher medical charges than non-smokers. The median cost for smokers is around **$35,000**, while for non-smokers it's just **$8,000**. The highest costs for smokers go over **$60,000**, compared to non-smokers who rarely exceed **$20,000**.
-**Increasing/Decreasing Pattern?**
-- There's no specific increasing or decreasing trend shown here because this is a comparison between two groups. What it clearly shows is a **huge difference** in medical costs between smokers and non-smokers. Smokers always have higher costs—no exceptions.
-**Why is This Important?**
-<br>
-**=>**  Smokers are a high-risk group with much higher and more unpredictable medical expenses. This means **higher premiums** are needed for smokers to balance out the increased risk. The cost difference is too big to ignore; smokers need to pay more because they cost the company more. Straightforward decision—charge them more, minimize the company's financial risk.
-
-**2. BMI Categories vs. Medical Charges**
-People were grouped by BMI: underweight, normal, overweight, obese. The box plot shows obese people face higher charges. This means BMI is a good factor for predicting high costs.
-![image](https://github.com/user-attachments/assets/ec0abee4-7214-4d00-b007-54f89cced786)
-<br>
-
-**Chart Analysis: BMI Category vs Medical Charges**
-
-
-
-**Which One is Highest?**
-- **Obese** individuals have the highest medical charges. The median cost is higher than the other BMI categories, and there are many outliers with extremely high charges (some even exceeding **$60,000**).
-- **Underweight, Normal, and Overweight** categories have similar median charges, all much lower than the obese group.
-**Increasing/Decreasing Pattern?**
-- There is an **increasing pattern** in medical charges as BMI goes up. Medical charges steadily rise from **underweight to obese**. Obese individuals have a significant jump in costs compared to the others.
-**Why is This Important?**
-<br>
-**=>**  Obese individuals are driving higher costs, which means they are a higher risk group. To manage this risk, insurance premiums should be higher for obese individuals. The cost difference is clear—people with higher BMIs (specifically those classified as obese) cost more in healthcare. Adjust the premiums accordingly to make sure the higher risk (higher medical expenses) is covered by higher pricing. Simple decision—higher risk, higher cost.
-
-**3. Age vs. Medical Charges**
-Charges increase with age, especially after 50. The scatter plot shows this clearly. Older people are more likely to need higher-cost insurance.
-These charts directly show who has higher costs—smokers, older people, and those with higher BMI. This means insurance companies should adjust premiums accordingly.
-![image](https://github.com/user-attachments/assets/85e7baca-e438-43b9-a7f9-5ddc387d20c5)
-<br>
-
-**Chart Analysis: Age vs Medical Charges**
-</br>
-<br>
-**Which One is Highest?**
-- **Smokers** always have the highest medical charges compared to non-smokers, regardless of age. The **blue dots** represent smokers, and they are consistently above the **orange dots** (non-smokers).
-- As age increases, the medical charges also increase for both smokers and non-smokers, but smokers consistently pay much more. The highest charges go well above **$60,000**, mostly for older smokers.
-**Increasing/Decreasing Pattern?**
-- **Increasing Pattern**: Medical costs **increase with age**. The older the person, the more they pay, especially if they smoke. The charges rise for both groups, but the gap between smokers and non-smokers remains obvious and significant at every age group.
-**Why is This Important?**
-<br>
-**=>**  Age and smoking are two major factors driving up medical costs. Older people cost more, and smokers cost way more. So, adjust the premiums—charge **older people higher premiums** based on the increased cost with age, and **charge smokers even more** to cover their significantly higher health risks. The costs aren't the same for everyone—insurance pricing needs to reflect this. Higher age and smoking mean higher costs, so premiums need to go up for these groups..
-</br>
-
-# V. Conclusion
-Smoking, age, and BMI are the main factors driving medical costs. Smokers, older people, and those with high BMI should be charged higher premiums based on their risk. No fluff—just straight insights and recommendations.
+Between the models tested, both Logistic Regression and K-Nearest Neighbors worked well for predicting heart disease, with Logistic Regression being a bit more accurate. This may make it a better choice for this data. Overall, a balanced approach that includes careful monitoring, focusing on high-risk factors, and keeping data accurate could help in preventing and managing heart disease effectively.
 </div>
