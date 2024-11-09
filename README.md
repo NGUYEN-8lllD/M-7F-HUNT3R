@@ -14,7 +14,7 @@
 <li>Class: MAS2 🧑🏻‍🎓</li>
 <li>Lecturer: Dr. Emmanuel Lance Christopher VI M. Plan 🧑🏻‍🏫</li>
 </ul>
-
+.
 <h1>Team Member</h1> 
 
 <table>
