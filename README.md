@@ -76,7 +76,7 @@
 * **RestingBP:** resting blood pressure [mm Hg] millimetres of mercury
 * **Cholesterol:** serum cholesterol [mm/dl] milligrams (mg) per deciliter
 * **FastingBS:** fasting blood sugar [1: if FastingBS > 120 mg/dl, 0: otherwise]
-* **RestingECG:** resting electrocardiogram results [Normal: Normal, ST: having ST-T wave abnormality (T wave inversions and/or ST elevation  or depression of > 0.05 mV [Minute Ventilation] )
+* **RestingECG:** resting electrocardiogram results [Normal: Normal, ST: having ST-T wave abnormality] (T wave inversions and/or ST elevation  or depression of > 0.05 mV [Minute Ventilation] )
 * **MaxHR:** maximum heart rate achieved [Numeric value between 60 and 202]
 * **ExerciseAngina:** exercise-induced angina [Y: Yes, N: No]
 * **Oldpeak:** oldpeak = ST [Numeric value measured in depression]
