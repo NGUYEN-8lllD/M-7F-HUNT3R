@@ -269,7 +269,7 @@ The scatter plot visualizes cholesterol levels and resting blood pressure among 
 
 <br>
 
-<h3>
+
 ## Cholesterol Distribution in Heart Disease Patients
 ![image](https://github.com/user-attachments/assets/67920a28-e8d4-4aee-b9da-766cc47458b1)
 
@@ -302,11 +302,11 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 **Conclusion:**
 
 => High cholesterol is more prevalent among heart disease patients; however, because there is an overlap with patients without heart disease, cholesterol alone isn't a standalone predictor. Elevated cholesterol can still warrant closer monitoring, especially when combined with other risk factors. Additionally, near-zero values should be checked for accuracy to prevent skewed analysis.
-</h3>
-<br>
+
 <br>
 
-<h4>
+
+
 ## K-Nearest Neighbors (KNN) Model Performance
 ![image](https://github.com/user-attachments/assets/29ff85e6-83eb-4ef9-8cf6-65424957ee95)
 
@@ -330,8 +330,10 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 </h4>
 <br>
 <br>
-<h5>
+
+    
 ## Logistic Regression Model Performance
+
 ![image](https://github.com/user-attachments/assets/b88e8910-3113-45a6-9bdc-ca5357b0aeef)
 
 
@@ -352,10 +354,10 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 * **AUC:** Slightly better than KNN with an AUC of 0.93.
 
 **Summary:** Logistic Regression performs about the same as KNN in accuracy but edges out with a higher AUC, making it slightly better for spotting heart disease and non-heart disease cases. Ideal for applications where diagnostic accuracy matters a bit more.
-</h5>
+
 <br>
 <br>
-<h6>
+
 
 ## Linear Regression Model Performance
 ![image](https://github.com/user-attachments/assets/284398c2-f616-4b35-9b12-9f56ba80ed53)
@@ -383,5 +385,5 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 In conclusion, this analysis shows that heart disease risk is linked to several factors, such as age, cholesterol, blood pressure, blood sugar, and chest pain type. The results suggest that middle-aged and older adults, especially those with high cholesterol, high blood sugar, or certain chest pain types, have a higher risk. However, no single factor alone can predict heart disease. Looking at multiple factors together gives a clearer understanding.
 
 Between the models tested, both Logistic Regression and K-Nearest Neighbors worked well for predicting heart disease, with Logistic Regression being a bit more accurate. This may make it a better choice for this data. Overall, a balanced approach that includes careful monitoring, focusing on high-risk factors, and keeping data accurate could help in preventing and managing heart disease effectively.
-</h6>
+
 </div>
