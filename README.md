@@ -286,7 +286,8 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 
 => High cholesterol is more prevalent among heart disease patients; however, because there is an overlap with patients without heart disease, cholesterol alone isn't a standalone predictor. Elevated cholesterol can still warrant closer monitoring, especially when combined with other risk factors. Additionally, near-zero values should be checked for accuracy to prevent skewed analysis.
 
-![image](https://github.com/user-attachments/assets/ff231f41-5dff-4bb5-9cde-bac7cad81781)
+![image](https://github.com/user-attachments/assets/29ff85e6-83eb-4ef9-8cf6-65424957ee95)
+
 
 ## K-Nearest Neighbors (KNN) Model Performance
 
@@ -306,7 +307,8 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 
 **Summary:** KNN is reliable for predicting heart disease, with solid recall for spotting non-heart disease cases (87%) and high precision (90%) for catching heart disease. Great choice if you need a consistent classifier.
 
-![image](https://github.com/user-attachments/assets/e26c3638-5bd2-4aed-88be-513226894cc4)
+![image](https://github.com/user-attachments/assets/b88e8910-3113-45a6-9bdc-ca5357b0aeef)
+
 
 ## Logistic Regression Model Performance
 
@@ -326,7 +328,8 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 
 **Summary:** Logistic Regression performs about the same as KNN in accuracy but edges out with a higher AUC, making it slightly better for spotting heart disease and non-heart disease cases. Ideal for applications where diagnostic accuracy matters a bit more.
 
-![image](https://github.com/user-attachments/assets/d59e4292-22d7-4eeb-aee1-6325ae34977c)
+![image](https://github.com/user-attachments/assets/284398c2-f616-4b35-9b12-9f56ba80ed53)
+
 
 ## Linear Regression Model Performance
 
