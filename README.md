@@ -84,10 +84,10 @@
 * **HeartDisease:** output class [1: heart disease, 0: Normal]
 
 <h1 align="center">III. Charts and Insights</h1>
-  
-![image](https://github.com/user-attachments/assets/941ca8f3-a43b-4e5f-b2a8-8f7012ffd22b)
 
 ## Age Distribution of Patients
+![image](https://github.com/user-attachments/assets/941ca8f3-a43b-4e5f-b2a8-8f7012ffd22b)
+
 
 The age distribution of the patients in the dataset is shown in the histogram with a KDE curve overlaid. The pattern of the distribution appears to be almost bell-shaped (or normal distribution), meaning most patients fall within a central age range, with fewer younger and older patients on the edges.
   
@@ -104,9 +104,11 @@ The age distribution of the patients in the dataset is shown in the histogram wi
 * Data Limitations for Younger and Very Elderly Groups: There aren’t many patients under 30 or over 75, which could be a limitation in applying any findings across all age groups. Insights gained from this dataset might not be fully applicable to very young adults or the very elderly, and collecting more data on these groups could give a fuller picture.
 
   => In summary, the dataset’s age distribution centers on middle-aged and senior adults, especially those aged 55–60 who are typically at higher risk for heart disease. This concentration makes the dataset relevant for heart disease studies in these age groups, which might also aid in designing preventive health measures and healthcare plans. However, while this dataset gives valuable insights into heart disease risk for middle-aged and older adults, it might require more data from younger and elderly groups to understand heart disease dynamics across the entire age range.
+<br>
 
-![image](https://github.com/user-attachments/assets/8a89f3d0-7a51-44de-8d74-bf7493165087)
 ## Age Distribution of Heart Disease Cases
+![image](https://github.com/user-attachments/assets/8a89f3d0-7a51-44de-8d74-bf7493165087)
+
 
 This chart shows heart disease cases by age group, with orange indicating patients with heart disease and light blue for those without.
 
@@ -128,9 +130,12 @@ Heart disease risk clearly goes up with age, peaking in the 50–60 range and st
 * **Resource Allocation**: Healthcare should focus resources on middle-aged and older adults, especially 50+.
    
 =>  Heart disease increases with age, especially from 50 onwards. Targeted interventions and resources for these age groups could help manage and reduce heart disease effectively.
+<br>
 
-![image](https://github.com/user-attachments/assets/1d7409a2-adf5-4fbe-80ba-2794637550a5)
+
 ## Cholesterol level by Heart Disease Status
+![image](https://github.com/user-attachments/assets/1d7409a2-adf5-4fbe-80ba-2794637550a5)
+
 
 This box plot shows cholesterol levels for patients with (1) and without (0) heart disease. The y-axis represents cholesterol levels.
   
@@ -155,11 +160,12 @@ This box plot shows cholesterol levels for patients with (1) and without (0) hea
 **Conclusion:**
 
  => High cholesterol is connected to a higher risk of heart disease, but it’s not the only thing to consider. People with heart disease often have higher cholesterol, which shows why managing it is important. However, taking other factors into account, like age and lifestyle, might be an even better way to prevent heart disease in the future.
+<br>
 
+## Chest Pain Type and Heart Disease
 
 ![image](https://github.com/user-attachments/assets/a8f75074-954d-4ed5-911e-8f0a33b795e2)
 
-## Chest Pain Type and Heart Disease
   
 This bar chart shows the distribution of chest pain types among patients with and without heart disease. Each chest pain type (ASY, ATA, NAP, TA) is on the x-axis, while the y-axis shows the number of patients. Orange represents those with heart disease; blue represents those without.
   
@@ -181,10 +187,12 @@ This bar chart shows the distribution of chest pain types among patients with an
 
  => Atypical angina (ASY) is closely linked to heart disease, making it useful for early risk assessment. Chest pain type can help clinicians prioritize patients for faster diagnosis, especially those with ASY.
 
+<br>
 
+## Fasting Blood Sugar Levels and Heart Disease
 ![image](https://github.com/user-attachments/assets/51811154-b544-4525-a4d1-ffb4d0dda35a)
    
-## Fasting Blood Sugar Levels and Heart Disease
+
 
 
 The bar chart shows the connection between fasting blood sugar levels and heart disease. On the x-axis, have zero person with blood sugar levels 120 mg/dl or lower, and 1 means people with blood sugar levels above 120 mg/dl. The y-axis shows the number of patients. Blue bars show people without heart disease, and orange bars show people with heart disease. This chart helps us see if higher blood sugar is related to heart disease.
@@ -204,10 +212,12 @@ The bar chart shows the connection between fasting blood sugar levels and heart 
 **Conclusion:**:
  
 => The chart shows a clear link between high blood sugar levels and heart disease. Patients with high blood sugar are mostly in the heart disease group, highlighting the importance of blood sugar control and monitoring as a way to reduce heart disease risk.
-
-![image](https://github.com/user-attachments/assets/1d960389-e380-4e6f-b6cf-e7e7b3a4e80b)
+<br>
 
 ## Age and maximum heart rate 
+![image](https://github.com/user-attachments/assets/1d960389-e380-4e6f-b6cf-e7e7b3a4e80b)
+
+
 
 **Age and Max Heart Rate in Relation to Heart Disease:**
 
@@ -228,9 +238,12 @@ This scatter plot shows how age and maximum heart rate relate to heart disease. 
   
 => This chart shows that lower max heart rates are linked to heart disease, especially in older adults. Tracking max heart rate with age could help spot at-risk individuals, supporting early action for heart disease prevention.
 
-![image](https://github.com/user-attachments/assets/383202ca-dc13-4c37-abf8-1e086e5d8f27)
+<br>
 
 ## Cholesterol levels and resting blood pressure 
+![image](https://github.com/user-attachments/assets/383202ca-dc13-4c37-abf8-1e086e5d8f27)
+
+
 
 The scatter plot visualizes cholesterol levels and resting blood pressure among patients, differentiated by blue dots for those without heart disease and green dots for those with heart disease.
 
@@ -254,9 +267,13 @@ The scatter plot visualizes cholesterol levels and resting blood pressure among 
 
 => High cholesterol and resting blood pressure levels are linked to heart disease, but they are not the only predictors. A full risk check needs to look at many factors together. Fixing any unusual data will also make the analysis more reliable.
 
+<br>
+
+<h3>
+## Cholesterol Distribution in Heart Disease Patients
 ![image](https://github.com/user-attachments/assets/67920a28-e8d4-4aee-b9da-766cc47458b1)
 
-## Cholesterol Distribution in Heart Disease Patients
+
 
 This histogram with KDE overlays illustrates cholesterol levels among patients with and without heart disease. The x-axis represents cholesterol levels, while the y-axis shows patient count. Orange bars signify patients with heart disease, and blue bars represent those without.
 
@@ -285,11 +302,15 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 **Conclusion:**
 
 => High cholesterol is more prevalent among heart disease patients; however, because there is an overlap with patients without heart disease, cholesterol alone isn't a standalone predictor. Elevated cholesterol can still warrant closer monitoring, especially when combined with other risk factors. Additionally, near-zero values should be checked for accuracy to prevent skewed analysis.
+</h3>
+<br>
+<br>
 
+<h4>
+## K-Nearest Neighbors (KNN) Model Performance
 ![image](https://github.com/user-attachments/assets/29ff85e6-83eb-4ef9-8cf6-65424957ee95)
 
 
-## K-Nearest Neighbors (KNN) Model Performance
 
 * **Accuracy:** The KNN model hit 85.32% accuracy.
 * **Classification Metrics:**
@@ -306,11 +327,15 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 * **AUC:** The KNN model scored an AUC of 0.92, showing it’s pretty good at telling the difference between heart disease and no heart disease cases.
 
 **Summary:** KNN is reliable for predicting heart disease, with solid recall for spotting non-heart disease cases (87%) and high precision (90%) for catching heart disease. Great choice if you need a consistent classifier.
-
+</h4>
+<br>
+<br>
+<h5>
+## Logistic Regression Model Performance
 ![image](https://github.com/user-attachments/assets/b88e8910-3113-45a6-9bdc-ca5357b0aeef)
 
 
-## Logistic Regression Model Performance
+
 
 * **Accuracy:** Same as KNN, with 85.32% accuracy.
 * **Classification Metrics:**
@@ -327,11 +352,16 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 * **AUC:** Slightly better than KNN with an AUC of 0.93.
 
 **Summary:** Logistic Regression performs about the same as KNN in accuracy but edges out with a higher AUC, making it slightly better for spotting heart disease and non-heart disease cases. Ideal for applications where diagnostic accuracy matters a bit more.
+</h5>
+<br>
+<br>
+<h6>
 
+## Linear Regression Model Performance
 ![image](https://github.com/user-attachments/assets/284398c2-f616-4b35-9b12-9f56ba80ed53)
 
 
-## Linear Regression Model Performance
+
 
 * **MSE:** Got a mean squared error of 0.114, showing how far off the predicted values are on average.
 * **Accuracy (with 0.5 threshold):** Achieved 84.29% accuracy.
@@ -353,4 +383,5 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 In conclusion, this analysis shows that heart disease risk is linked to several factors, such as age, cholesterol, blood pressure, blood sugar, and chest pain type. The results suggest that middle-aged and older adults, especially those with high cholesterol, high blood sugar, or certain chest pain types, have a higher risk. However, no single factor alone can predict heart disease. Looking at multiple factors together gives a clearer understanding.
 
 Between the models tested, both Logistic Regression and K-Nearest Neighbors worked well for predicting heart disease, with Logistic Regression being a bit more accurate. This may make it a better choice for this data. Overall, a balanced approach that includes careful monitoring, focusing on high-risk factors, and keeping data accurate could help in preventing and managing heart disease effectively.
+</h6>
 </div>
