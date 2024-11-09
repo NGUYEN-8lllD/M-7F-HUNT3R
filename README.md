@@ -386,4 +386,4 @@ In conclusion, this analysis shows that heart disease risk is linked to several 
 
 Between the models tested, both Logistic Regression and K-Nearest Neighbors worked well for predicting heart disease, with Logistic Regression being a bit more accurate. This may make it a better choice for this data. Overall, a balanced approach that includes careful monitoring, focusing on high-risk factors, and keeping data accurate could help in preventing and managing heart disease effectively.
 
-</div>
+
