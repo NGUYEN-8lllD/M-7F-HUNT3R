@@ -327,7 +327,7 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 * **AUC:** The KNN model scored an AUC of 0.92, showing it’s pretty good at telling the difference between heart disease and no heart disease cases.
 
 **Summary:** KNN is reliable for predicting heart disease, with solid recall for spotting non-heart disease cases (87%) and high precision (90%) for catching heart disease. Great choice if you need a consistent classifier.
-</h4>
+
 <br>
 <br>
 
