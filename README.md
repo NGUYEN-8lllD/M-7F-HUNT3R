@@ -376,7 +376,8 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 
 * **Averages:** Macro and weighted averages hover around 0.84, so it’s balanced but slightly lower than the other models.
 * **AUC:** Scored an AUC of 0.92, close to KNN but under Logistic Regression’s AUC of 0.93.
-**Sumary: ** The linear regression model achieves strong accuracy (84.29%) and AUC (0.92), making it reliable for predicting heart disease, with high precision (90%) for identifying at-risk patients. However, slightly lower precision for "No Heart Disease" suggests occasional underdiagnosis. While effective, further optimization could enhance performance in specific cases
+
+**Sumary:** The linear regression model achieves strong accuracy (84.29%) and AUC (0.92), making it reliable for predicting heart disease, with high precision (90%) for identifying at-risk patients. However, slightly lower precision for "No Heart Disease" suggests occasional underdiagnosis. While effective, further optimization could enhance performance in specific cases
 
 # IV. Conclusion
 In conclusion, this analysis shows that heart disease risk is linked to several factors, such as age, cholesterol, blood pressure, blood sugar, and chest pain type. The results suggest that middle-aged and older adults, especially those with high cholesterol, high blood sugar, or certain chest pain types, have a higher risk. However, no single factor alone can predict heart disease. Looking at multiple factors together gives a clearer understanding.
