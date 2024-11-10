@@ -91,7 +91,7 @@
 
 The age distribution of the patients in the dataset is shown in the histogram with a KDE curve overlaid. The pattern of the distribution appears to be almost bell-shaped (or normal distribution), meaning most patients fall within a central age range, with fewer younger and older patients on the edges.
   
- **Key Observations:**
+ **Main Point:**
 
 * **Age Range:** The dataset includes patients mostly between 30 and 75 years. We can see there are barely any patients under 30 or over 75 years, as indicated by the low bars at the edges.
 * **Peak Age Group**: The group with the most patients is between 55 and 60 years old, where the count reaches about 120. This suggests that the dataset has a heavy focus on middle-aged to older adults, especially those in their late 50s.
@@ -112,7 +112,7 @@ The age distribution of the patients in the dataset is shown in the histogram wi
 
 This chart shows heart disease cases by age group, with orange indicating patients with heart disease and light blue for those without.
 
-**Key Observations:**
+**Main Point:**
 
 * **50–60 Age Group**: Highest rate of heart disease; orange segment dominates.
 * **60–70 Age Group**: Also high in heart disease cases, though slightly fewer than 50–60.
@@ -139,7 +139,7 @@ Heart disease risk clearly goes up with age, peaking in the 50–60 range and st
 
 This box plot shows cholesterol levels for patients with (1) and without (0) heart disease. The y-axis represents cholesterol levels.
   
-**Key Observations**
+**Main Point**
   
 * **Median Levels:**
   * Patients without heart disease have a median cholesterol slightly above 200 mg/dL.
@@ -151,7 +151,7 @@ This box plot shows cholesterol levels for patients with (1) and without (0) hea
   * The non-heart disease group has more extreme outliers, with some very high (above 400 mg/dL) and low (below 100 mg/dL) values.
   * The heart disease group has fewer outliers but a generally wider spread, showing that high cholesterol is common here.
   
-**Implications:**
+**Main Point:**
 
 * **Cholesterol Management:** The higher median and broader spread in the heart disease group imply that controlling cholesterol could help reduce risk. Lifestyle changes and medications could be useful for patients with elevated levels.
 * **Comprehensive Screening:** Outliers suggest cholesterol alone isn’t enough to predict heart disease accurately. Screening for other risk factors (like blood pressure) would give a fuller picture.
@@ -170,7 +170,7 @@ This box plot shows cholesterol levels for patients with (1) and without (0) hea
 This bar chart shows the distribution of chest pain types among patients with and without heart disease. Each chest pain type (ASY, ATA, NAP, TA) is on the x-axis, while the y-axis shows the number of patients. Orange represents those with heart disease; blue represents those without.
   
     
-**Key Observations:**
+**Main Point:**
 
 * **ASY (Atypical Angina)**: Mostly linked to heart disease, as shown by the dominant orange bar. Very few ASY patients don’t have heart disease, suggesting it’s a strong indicator of heart disease.
 * **ATA (Asymptomatic)**: Primarily associated with patients without heart disease, shown by the large blue bar. Only a few ATA patients have heart disease, so it’s less of a risk indicator.
@@ -197,7 +197,7 @@ This bar chart shows the distribution of chest pain types among patients with an
 
 The bar chart shows the connection between fasting blood sugar levels and heart disease. On the x-axis, have zero person with blood sugar levels 120 mg/dl or lower, and 1 means people with blood sugar levels above 120 mg/dl. The y-axis shows the number of patients. Blue bars show people without heart disease, and orange bars show people with heart disease. This chart helps us see if higher blood sugar is related to heart disease.
 
-**Key Observation:**
+**Main Point:**
 
 * **Normal Fasting Blood Sugar (≤120 mg/dl)**: Most patients have normal blood sugar levels, with a slightly higher count of non-heart disease cases (blue) than heart disease cases (orange). This suggests that normal blood sugar is common in both groups, but those without heart disease slightly outnumber those with it.
 * **Elevated Fasting Blood Sugar (>120 mg/dl)**: For high blood sugar patients, the majority have heart disease (orange). This shows a strong link between elevated blood sugar and heart disease, as only a few with high blood sugar do not have heart disease.
@@ -223,7 +223,7 @@ The bar chart shows the connection between fasting blood sugar levels and heart 
 
 This scatter plot shows how age and maximum heart rate relate to heart disease. Each dot represents a patient, with blue for patients without heart disease and orange for those with heart disease.
 
-**Key Observations:**
+**Main Point:**
 
 * **Age and Heart Disease:** Heart disease cases (orange dots) are mostly among older patients, especially those over 50. Younger patients are more likely to be without heart disease (blue dots).
 * **Max Heart Rate and Heart Disease:** Patients without heart disease (blue) tend to have higher max heart rates, often around 150 or more, regardless of age. Those with heart disease (orange) usually have lower max heart rates, often below 140, especially as they get older.
@@ -247,7 +247,7 @@ This scatter plot shows how age and maximum heart rate relate to heart disease. 
 
 The scatter plot visualizes cholesterol levels and resting blood pressure among patients, differentiated by blue dots for those without heart disease and green dots for those with heart disease.
 
-**Key Observations:**
+**Main Point:**
 
 * **Cholesterol Levels:** Most of the patients, regardless of heart disease status are having cholesterol levels reaching 150 to 300 mg/dL. In some cases the cholesterol levels reaching up to 600 mg/dL are rare.
 
@@ -277,7 +277,7 @@ The scatter plot visualizes cholesterol levels and resting blood pressure among 
 
 This histogram with KDE overlays illustrates cholesterol levels among patients with and without heart disease. The x-axis represents cholesterol levels, while the y-axis shows patient count. Orange bars signify patients with heart disease, and blue bars represent those without.
 
-**Key Observations:**
+**Main Point:**
 
 Cholesterol Levels Near Zero: There’s a notable number of patients with cholesterol levels close to zero, all represented by the orange bar (patients with heart disease). This is likely due to missing or incorrect data, as zero cholesterol isn’t realistic.
 
