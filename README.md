@@ -86,7 +86,8 @@
 <h1 align="center">III. Charts and Insights</h1>
 
 ## Age Distribution of Patients
-![image](https://github.com/user-attachments/assets/941ca8f3-a43b-4e5f-b2a8-8f7012ffd22b)
+![image](https://github.com/user-attachments/assets/ba670568-f539-46d4-871a-035104ea1e33)
+
 
 
 The age distribution of the patients in the dataset is shown in the histogram with a KDE curve overlaid. The pattern of the distribution appears to be almost bell-shaped (or normal distribution), meaning most patients fall within a central age range, with fewer younger and older patients on the edges.
@@ -164,7 +165,8 @@ This box plot shows cholesterol levels for patients with (1) and without (0) hea
 
 ## Chest Pain Type and Heart Disease
 
-![image](https://github.com/user-attachments/assets/a8f75074-954d-4ed5-911e-8f0a33b795e2)
+![image](https://github.com/user-attachments/assets/6ad18538-4f77-4768-b7bc-f4ca50868bcf)
+
 
   
 This bar chart shows the distribution of chest pain types among patients with and without heart disease. Each chest pain type (ASY, ATA, NAP, TA) is on the x-axis, while the y-axis shows the number of patients. Orange represents those with heart disease; blue represents those without.
@@ -268,7 +270,7 @@ The scatter plot visualizes cholesterol levels and resting blood pressure among 
 
 
 ## Cholesterol Distribution in Heart Disease Patients
-![image](https://github.com/user-attachments/assets/67920a28-e8d4-4aee-b9da-766cc47458b1)
+![image](https://github.com/user-attachments/assets/27810d67-31b8-4eda-bf1e-11312688ef28)
 
 
 
