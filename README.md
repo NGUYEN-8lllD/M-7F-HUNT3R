@@ -218,9 +218,6 @@ The bar chart shows the connection between fasting blood sugar levels and heart 
 ![image](https://github.com/user-attachments/assets/1d960389-e380-4e6f-b6cf-e7e7b3a4e80b)
 
 
-
-**Age and Max Heart Rate in Relation to Heart Disease:**
-
 This scatter plot shows how age and maximum heart rate relate to heart disease. Each dot represents a patient, with blue for patients without heart disease and orange for those with heart disease.
 
 **Main Point:**
