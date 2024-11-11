@@ -87,15 +87,15 @@
 <br>
 
 ![image](https://github.com/user-attachments/assets/91b0605a-fc9a-414a-a0f4-11c7fd3b95c6)
-- The dataset has 918 complete records with no missing or duplicate data. Key issues include invalid values in RestingBP (0), Cholesterol (0), and Oldpeak (-2.0), as well as extreme cholesterol levels (603).
-- Actions: Investigate and correct anomalies, validate data ranges with domain experts, and address outliers using appropriate strategies.
-- Recommendation: Ensure final review and establish routine monitoring to maintain data quality for reliable analysis and modeling.
+- The dataset contains 918 records with no missing or duplicate data, which is great. However, there are some issues like invalid values in RestingBP (0), Cholesterol (0), and Oldpeak (-2.0), along with an unusually high cholesterol level of 603.
+- To fix this, anomalies should be investigated and corrected, data ranges validated with experts, and outliers handled carefully.
+- Moving forward, it's important to do a final review and set up regular checks to keep the data clean and reliable for analysis.
 <br>
 
 ![image](https://github.com/user-attachments/assets/c86128bd-7ea2-4457-826c-340505f78889)
-- No Missing or Duplicate Data: All columns are complete, and no duplicate rows exist, ensuring consistency.
-- Anomalies Identified: Invalid values in RestingBP (0), Cholesterol (0), and Oldpeak (-2.0) require correction; extreme cholesterol values (603) need review.
-- Recommendations: Validate data ranges with domain experts, address anomalies, and establish monitoring for future data quality assurance.
+- Complete and Clean Data: All columns are filled, and there are no duplicate records, ensuring the dataset is consistent and ready for analysis.
+- Detected Issues: Some values need attention, such as RestingBP (0), Cholesterol (0), and Oldpeak (-2.0), which are invalid, and a cholesterol value of 603, which seems unusually high.
+- Next Steps: Work with experts to confirm data accuracy, fix these issues, and set up processes to maintain data quality going forward.
 
 <br>
 <h1 align="center">IV. Charts and Insights</h1>
