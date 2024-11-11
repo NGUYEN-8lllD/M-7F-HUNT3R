@@ -4,7 +4,7 @@
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=30&center=true&vCenter=true&width=500&height=70&duration=5000&lines=Hello+Mr+EC!+👋;Our+data+presentation;+Coronary+Artery+Heart+Disease;" />
 </h1>
 
-<h1 align="center">    Research from Group 5,</h3>
+<h1 align="center">    Research from Group 5.</h1>
 
 <div align="center">
 
@@ -325,8 +325,8 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 
 
 
+**Classification Metrics:**
 * **Accuracy:** The KNN model hit 85.32% accuracy.
-* **Classification Metrics:**
     * **No Heart Disease (Class 0):**
         * **Precision:** 80%
         * **Recall:** 87%
@@ -338,6 +338,18 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 
 * **Averages:** Both macro and weighted averages are around 0.85, meaning the model handles both classes pretty evenly.
 * **AUC:** The KNN model scored an AUC of 0.92, showing it’s pretty good at telling the difference between heart disease and no heart disease cases.
+
+**Strengths:**
+
+* Competitive AUC of 0.92, close to Logistic Regression.
+* Precision and recall metrics for Class 1 mirror those of Logistic Regression, ensuring effective heart disease identification.
+* High adaptability to nonlinear data relationships.
+
+**Insights for Medical Applications:**
+
+* KNN’s performance makes it a viable option for diagnostic support tools where real-time predictions are necessary.
+* Its adaptability to complex relationships can be advantageous in datasets with nonlinear trends.
+* However, the computational cost in large datasets may make it less ideal for real-time or resource-constrained environments.
 
 **Summary:** KNN is reliable for predicting heart disease, with solid recall for spotting non-heart disease cases (87%) and high precision (90%) for catching heart disease. Great choice if you need a consistent classifier.
 
@@ -352,7 +364,7 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 
 
 
-**Performance Metrics:**
+**Classification Metrics:**
 
 * Accuracy: Same as KNN, with 85.32% accuracy.
 * Classification Metrics:
@@ -364,14 +376,15 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
       * **Precision:** 90%
       * **Recall:** 84%
       * **F1-Score:** 0.87
-* **Averages:** Macro and weighted averages around 0.85, consistent across both classes.
-* **AUC:** Slightly better than KNN with an AUC of 0.93.
+    * **Averages:** Macro and weighted averages around 0.85, consistent across both classes.
+    * **AUC:** Slightly better than KNN with an AUC of 0.93.
   
 **Strengths:**
 
 * High AUC of 0.93 indicates excellent discrimination between patients with and without heart disease.
 * Precision of 90% ensures a low rate of false positives, making it reliable for identifying true heart disease cases.
 * Balanced performance across both classes, as evidenced by near-equal macro and weighted averages.
+
   
 **Insights for Medical Applications:**
 
@@ -392,6 +405,7 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 
 
 
+**Classification Metrics:**
 * **MSE:** Got a mean squared error of 0.114, showing how far off the predicted values are on average.
 * **Accuracy (with 0.5 threshold):** Achieved 84.29% accuracy.
     * **Classification Metrics:**
@@ -403,9 +417,22 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
         * **Precision:** 90%
         * **Recall:** 82%
         * **F1-Score:** 0.86
+    * **Averages:** Macro and weighted averages hover around 0.84, so it’s balanced but slightly lower than the other models.
+    * **AUC:** Scored an AUC of 0.92, close to KNN but under Logistic Regression’s AUC of 0.93.
 
-* **Averages:** Macro and weighted averages hover around 0.84, so it’s balanced but slightly lower than the other models.
-* **AUC:** Scored an AUC of 0.92, close to KNN but under Logistic Regression’s AUC of 0.93.
+**Strengths:**
+
+* The model demonstrates strong predictive power, particularly for identifying patients with heart disease (Class 1). High precision (90%) ensures low false positives.
+* An AUC of 0.92 confirms the model's robustness in distinguishing between classes across varying thresholds.
+
+**Weaknesses:**
+
+* Slightly lower precision (78%) for patients without heart disease (Class 0) indicates potential overprediction of heart disease cases, which may lead to unnecessary follow-up tests.
+
+**Medical Applications**
+* **Screening Programs:** The model is well-suited for preliminary heart disease screening, especially in high-risk populations. Its high recall for detecting heart disease ensures that most cases are identified.
+* **Preventive Interventions:** By accurately predicting at-risk individuals, healthcare providers can allocate resources for preventive measures like lifestyle counseling or early medical interventions.
+* **Resource Optimization:** Efficiently classifies patients into risk categories, allowing targeted diagnostics and treatment, reducing unnecessary tests for low-risk individuals.
 
 **Sumary:** The linear regression model achieves strong accuracy (84.29%) and AUC (0.92), making it reliable for predicting heart disease, with high precision (90%) for identifying at-risk patients. However, slightly lower precision for "No Heart Disease" suggests occasional underdiagnosis. While effective, further optimization could enhance performance in specific cases
 
