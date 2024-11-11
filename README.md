@@ -69,7 +69,7 @@
 </ul>
 <h1>II. Data Discussion</h1>
 </div>
-.
+
 * **Age:** age of the patient [years]
 * **Sex:** sex of the patient [M: Male, F: Female]
 * **ChestPainType:** chest pain type [TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic]
