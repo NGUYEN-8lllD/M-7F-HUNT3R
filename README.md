@@ -4,17 +4,16 @@
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=30&center=true&vCenter=true&width=500&height=70&duration=5000&lines=Hello+Mr+EC!+👋;Our+data+presentation;+Coronary+Artery+Heart+Disease;" />
 </h1>
 
-<h3 align="center">    Research from Group 5</h3>.
+<h1 align="center">    Research from Group 5,</h3>
 
 <div align="center">
 
-<ul>
-<strong>Coronary Artery heart Disease 🫀</strong>
-<li>Subject: Data Science 📊</li>
-<li>Class: MAS2 🧑🏻‍🎓</li>
-<li>Lecturer: Dr. Emmanuel Lance Christopher VI M. Plan 🧑🏻‍🏫</li>
-</ul>
-.
+
+<h1>Coronary Artery heart Disease 🫀.</h1>
+<h2 align="center">Subject: Data Science 📊.</p>
+<h2 align="center">Class: MAS2 🧑🏻‍🎓.</p>
+<h2 align="center">Lecturer: Dr. Emmanuel Lance Christopher VI M. Plan 🧑🏻‍🏫.</p>
+
 <h1>Team Member</h1> 
 
 <table>
@@ -362,24 +361,23 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
       * **Recall:** 87%
       * **F1-Score:** 0.83
     * Heart Disease (Class 1):
-      * ** Precision:** 90%
-      * ** Recall:** 84%
-      * ** F1-Score:** 0.87
-
+      * **Precision:** 90%
+      * **Recall:** 84%
+      * **F1-Score:** 0.87
+* **Averages:** Macro and weighted averages around 0.85, consistent across both classes.
+* **AUC:** Slightly better than KNN with an AUC of 0.93.
+  
 **Strengths:**
 
 * High AUC of 0.93 indicates excellent discrimination between patients with and without heart disease.
 * Precision of 90% ensures a low rate of false positives, making it reliable for identifying true heart disease cases.
 * Balanced performance across both classes, as evidenced by near-equal macro and weighted averages.
+  
 **Insights for Medical Applications:**
 
 * Logistic Regression is well-suited for identifying patients at risk, ensuring most cases are accurately classified.
 * The high AUC suggests it is particularly effective for screening programs, where false negatives must be minimized.
 * Recommended for clinical environments requiring explainable models, as Logistic Regression coefficients provide interpretable insights into contributing factors.
-
-
-* **Averages:** Macro and weighted averages around 0.85, consistent across both classes.
-* **AUC:** Slightly better than KNN with an AUC of 0.93.
 
 **Summary:** Logistic Regression performs about the same as KNN in accuracy but edges out with a higher AUC, making it slightly better for spotting heart disease and non-heart disease cases. Ideal for applications where diagnostic accuracy matters a bit more.
 
