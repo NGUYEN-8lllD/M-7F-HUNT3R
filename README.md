@@ -287,21 +287,21 @@ The scatter plot visualizes cholesterol levels and resting blood pressure among 
 
 
 
-This histogram with KDE overlays illustrates cholesterol levels among patients with and without heart disease. The x-axis represents cholesterol levels, while the y-axis shows patient count. Orange bars signify patients with heart disease, and blue bars represent those without.
+This histogram with KDE overlays illustrates cholesterol levels among patients with and without heart disease. The x-axis represents cholesterol levels, the y-axis shows patient count. Orange bars show patients with heart disease, and blue bars represent those without.
 
 **Main Point:**
 
-Cholesterol Levels Near Zero: There’s a notable number of patients with cholesterol levels close to zero, all represented by the orange bar (patients with heart disease). This is likely due to missing or incorrect data, as zero cholesterol isn’t realistic.
+Cholesterol Levels Near Zero: There’s a large number of patients with cholesterol levels close to zero, all represented by the orange bar (patients with heart disease). This is likely due to missing or incorrect data, as zero cholesterol isn’t realistic.
 
 **Typical Cholesterol Distribution:**
 
-* **Without Heart Disease (blue):** Highest is around 200–250 mg/dL, which is in the normal to borderline-high range.
+* **Without Heart Disease (blue):** Highest is around 200–250 mg/dL, which is in the normal to almost high range.
 
 * **With Heart Disease (orange):** Highest are in the same range but have wider range, often greater than 250 mg/dL.
 
 * **Higher Cholesterol and Heart Disease:**  Cholesterol levels over 250 mg/dL are more common to patients who got heart disease, sometime it is even higher than 400 mg/dL.
 
-* **Overlap in Ranges:** Both groups overlap significantly in the 150–250 mg/dL range, indicating that cholesterol levels alone do not clearly separate the groups.
+* **Overlap in Ranges:** Both groups mix significantly in the 150–250 mg/dL range, indicating that cholesterol levels alone do not clearly separate the groups.
 
 **Implications:**
 
@@ -311,7 +311,7 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 
 **Conclusion:**
 
-=> High cholesterol is more prevalent among heart disease patients; however, because there is an overlap with patients without heart disease, cholesterol alone isn't a standalone predictor. Elevated cholesterol can still warrant closer monitoring, especially when combined with other risk factors. Additionally, near-zero values should be checked for accuracy to prevent skewed analysis.
+=> High cholesterol is more common among heart disease patients; however, because there is an mix with patients without heart disease, cholesterol alone isn't a standalone predictor. High cholesterol can still need closer watching, mostly when combined with other risk factors. Additionally, near-zero values should be checked for accuracy to prevent skewed analysis.
 
 <br>
 
