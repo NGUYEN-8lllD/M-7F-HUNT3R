@@ -64,7 +64,14 @@
 <ul>
 <li>Cardiovascular diseases (CVDs) are like the top reason people die worldwide, killing about 17.9 million people every year, which is 31% of all deaths. Out of these, like 4 out of 5 deaths are from heart attacks and strokes, and a third of them happen to people under 70, which is considered early. Heart failure is a usual problem caused by CVDs, and this dataset has 11 features to try to predict if someone might get heart disease.</li>
     <br>
-<li>People who already have CVD or are at high risk—maybe because they have high blood pressure, diabetes, high cholesterol, or already have the disease—need to be detected early and managed. Using a machine learning model could help a lot in finding and handling these risks.</li>
+<li>This study focuses on analyzing a dataset containing clinical information from 918 patients. Each patient is described by various features such as age, blood pressure, cholesterol levels, maximum heart rate, and chest pain types. The dataset also includes a binary target variable, HeartDisease, which indicates whether a patient has been diagnosed with heart disease (1 = presence, 0 = absence).</li>
+<li>The goal of this analysis is to explore patterns and relationships between these features and the presence of heart disease. This includes:
+
+- Studying Feature Relationships: This means looking at how things like cholesterol levels, blood pressure, and chest pain are linked to heart disease.
+
+- Creating Predictive Models: Using methods like Logistic Regression and K-Nearest Neighbors (KNN), we can figure out if a patient could have heart disease based on their health data.
+
+- Helping Doctors Make Decisions: The goal is to give useful information and data to doctors so they can detect heart disease early, focus on patients who need help and use medical resources wisely.</li>
 </ul>
 <h1>II. Data Discussion</h1>
 </div>
