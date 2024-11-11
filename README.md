@@ -111,7 +111,7 @@ The age distribution of the patients in the dataset is shown in the histogram wi
 * **Peak Age Group**: The group with the most patients is between 55 and 60 years old, where the count reaches about 120. This suggests that the dataset has a heavy focus on middle-aged to older adults, especially those in their late 50s.
 * **Symmetry**: The distribution is somewhat symmetrical around the peak age, with almost an equal number of patients on either side of the 55–60 range. This might mean the dataset is representative of middle-aged to senior adults but with fewer younger (30s) and very old (70s) patients.
  
-**Implications of the Age Distribution:**
+**Meaning of the Age Distribution:**
  
 * Focus on Middle-Aged and Older Adults: With most patients between 50 and 70 years old, this dataset aligns with the general trend of heart disease risk, which usually goes up with age. The demographic profile suggests that this dataset is likely geared towards studying heart disease among age groups that are more likely to experience cardiovascular issues. This might be helpful for targeted health measures.
 * Target Population for Heart Disease Analysis: Considering the age distribution, this dataset probably represents a population more at risk for heart disease, which could be useful for healthcare strategies aimed at middle-aged and senior patients. Having a lot of patients in their late 50s might imply that early interventions and risk management could be a focus for this age group.
@@ -137,7 +137,7 @@ This chart shows heart disease cases by age group, with orange indicating patien
 
 Heart disease risk clearly goes up with age, peaking in the 50–60 range and staying high in older groups.
  
-**Implications:**
+**Meaning:**
 
 * **Preventive Focus**: Efforts should target the 50–70 age range with screenings and lifestyle guidance.
 * **Early Screening**: Heart disease, though less common, is present in younger groups, suggesting earlier screenings could help.
@@ -192,7 +192,7 @@ This bar chart shows the distribution of chest pain types among patients with an
 * **NAP (Non-Anginal Pain)**: Higher count of patients without heart disease, but some with heart disease. This type is not a major indicator but still relevant.
 * **TA (Typical Angina)**: Roughly equal counts of heart disease and non-heart disease cases, suggesting it's a moderate risk factor.
   
-**Implications:**
+**Meaning:**
 
 * **Risk Assessment**: ASY is a strong heart disease indicator and should prompt further testing. ATA and NAP, however, are less concerning and might not need immediate action.
 * **Diagnostic Prioritization**: Clinicians can use chest pain types to decide who needs urgent testing. ASY patients might be prioritized, while ATA and NAP can be lower priority.
@@ -218,7 +218,7 @@ The bar chart shows the connection between fasting blood sugar levels and heart 
 * **Elevated Fasting Blood Sugar (>120 mg/dl)**: For high blood sugar patients, the majority have heart disease (orange). This shows a strong link between elevated blood sugar and heart disease, as only a few with high blood sugar do not have heart disease.
 * **Overall Correlation**: High fasting blood sugar levels are associated with a higher likelihood of heart disease, making it a potential risk factor. Normal blood sugar levels, on the other hand, are more evenly spread between the groups.
  
-**Implications:**
+**Meaning:**
 
 * **Risk Indicator**: Elevated blood sugar (>120 mg/dl) could indicate higher heart disease risk, suggesting that monitoring blood sugar is important for identifying at-risk patients.
 * **Blood Sugar Management**: Since high blood sugar correlates with heart disease, managing blood sugar through diet, lifestyle changes, and medications could help lower risk.
@@ -241,7 +241,7 @@ This scatter plot shows how age and maximum heart rate relate to heart disease. 
 * **Max Heart Rate and Heart Disease:** Patients without heart disease (blue) tend to have higher max heart rates, often around 150 or more, regardless of age. Those with heart disease (orange) usually have lower max heart rates, often below 140, especially as they get older.
 * **Trend with Age:** Max heart rate decreases as age increases, which is normal, but this decrease is more noticeable in heart disease patients, where older individuals tend to have even lower max heart rates.
 
-**Implications:**
+**Meaning:**
 
 * **Max Heart Rate as a Heart Disease Indicator:** A lower max heart rate in older patients could signal higher heart disease risk, suggesting it’s a useful metric for heart health assessment, especially in those over 50.
 * **Screening Based on Age and Max Heart Rate:** Older patients with low max heart rates might need more intensive screening since they’re at higher risk for heart disease.
@@ -269,7 +269,7 @@ The scatter plot visualizes cholesterol levels and resting blood pressure among 
 
 * **No Clear Separation:** Cholesterol and blood pressure levels do not distinctly separate the two groups, indicating that these factors alone are insufficient for predicting heart disease.
 
-**Implications:**
+**Meaning:**
 
 * **Combined Risk Factors:** Cholesterol and blood pressure should be analyzed alongside other factors, such as age and chest pain type, for a more accurate heart disease risk assessment.
 
@@ -303,7 +303,7 @@ Cholesterol Levels Near Zero: There’s a large number of patients with choleste
 
 * **Overlap in Ranges:** Both groups mix significantly in the 150–250 mg/dL range, indicating that cholesterol levels alone do not clearly separate the groups.
 
-**Implications:**
+**Meaning:**
 
 * **Cholesterol as a Risk Indicator:** Higher cholesterol levels are related to patients got  heart disease, however, it’s best to consider cholesterol with other risk factors for a more accurate decision.
 
