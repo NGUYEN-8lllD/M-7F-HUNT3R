@@ -83,12 +83,18 @@
 * **ST_Slope:** the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping] (ST segment slope)
 * **HeartDisease:** output class [1: heart disease, 0: Normal]
 
-III. Data Cleaning 
+<h0 align="center">III. Data Cleaning </h0>
 ![image](https://github.com/user-attachments/assets/91b0605a-fc9a-414a-a0f4-11c7fd3b95c6)
-.
-![image](https://github.com/user-attachments/assets/dce382dd-2d1d-4ebe-a1e6-3d8cf92ba395)
+- The dataset has 918 complete records with no missing or duplicate data. Key issues include invalid values in RestingBP (0), Cholesterol (0), and Oldpeak (-2.0), as well as extreme cholesterol levels (603).
+- Actions: Investigate and correct anomalies, validate data ranges with domain experts, and address outliers using appropriate strategies.
+- Recommendation: Ensure final review and establish routine monitoring to maintain data quality for reliable analysis and modeling.
+<br>
+![image](https://github.com/user-attachments/assets/7dbf9557-ce87-429c-939a-255bb17067ab)
+- No Missing or Duplicate Data: All columns are complete, and no duplicate rows exist, ensuring consistency.
+- Anomalies Identified: Invalid values in RestingBP (0), Cholesterol (0), and Oldpeak (-2.0) require correction; extreme cholesterol values (603) need review.
+- Recommendations: Validate data ranges with domain experts, address anomalies, and establish monitoring for future data quality assurance.
 
-
+<br>
 <h1 align="center">IV. Charts and Insights</h1>
 
 ## Age Distribution of Patients
