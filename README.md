@@ -353,16 +353,30 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 
 
 
-* **Accuracy:** Same as KNN, with 85.32% accuracy.
-* **Classification Metrics:**
-    * **No Heart Disease (Class 0):**
-        * **Precision:** 80%
-        * **Recall:** 87%
-        * **F1-Score:** 0.83
-    * **Heart Disease (Class 1):**
-        * **Precision:** 90%
-        * **Recall:** 84%
-        * **F1-Score:** 0.87
+** Performance Metrics: **
+
+* Accuracy: Same as KNN, with 85.32% accuracy.
+* Classification Metrics:
+    * No Heart Disease (Class 0):
+      **Precision: 80%
+      **Recall: 87%
+      **F1-Score: 0.83
+    * Heart Disease (Class 1):
+      ** Precision: 90%
+      ** Recall: 84%
+      ** F1-Score: 0.87
+
+** Strengths: **
+
+* High AUC of 0.93 indicates excellent discrimination between patients with and without heart disease.
+* Precision of 90% ensures a low rate of false positives, making it reliable for identifying true heart disease cases.
+* Balanced performance across both classes, as evidenced by near-equal macro and weighted averages.
+** Insights for Medical Applications: **
+
+* Logistic Regression is well-suited for identifying patients at risk, ensuring most cases are accurately classified.
+* The high AUC suggests it is particularly effective for screening programs, where false negatives must be minimized.
+* Recommended for clinical environments requiring explainable models, as Logistic Regression coefficients provide interpretable insights into contributing factors.
+
 
 * **Averages:** Macro and weighted averages around 0.85, consistent across both classes.
 * **AUC:** Slightly better than KNN with an AUC of 0.93.
@@ -371,6 +385,7 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 
 <br>
 <br>
+
 
 
 ## Linear Regression Model Performance
