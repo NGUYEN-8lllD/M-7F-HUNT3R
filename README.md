@@ -295,21 +295,19 @@ Cholesterol Levels Near Zero: There’s a notable number of patients with choles
 
 **Typical Cholesterol Distribution:**
 
-* **Without Heart Disease (blue):** Peaks around 200–250 mg/dL, which is in the normal to borderline-high range.
+* **Without Heart Disease (blue):** Highest is around 200–250 mg/dL, which is in the normal to borderline-high range.
 
-* **With Heart Disease (orange):** Peaks in the same range but with a wider spread, often extending above 250 mg/dL.
+* **With Heart Disease (orange):** Highest are in the same range but have wider range, often greater than 250 mg/dL.
 
-* **Higher Cholesterol and Heart Disease:** Cholesterol levels over 250 mg/dL are more common in heart disease patients, with some cases even exceeding 400 mg/dL.
+* **Higher Cholesterol and Heart Disease:**  Cholesterol levels over 250 mg/dL are more common to patients who got heart disease, sometime it is even higher than 400 mg/dL.
 
 * **Overlap in Ranges:** Both groups overlap significantly in the 150–250 mg/dL range, indicating that cholesterol levels alone do not clearly separate the groups.
 
 **Implications:**
 
-* **Data Cleaning:** The instances of zero cholesterol suggest data quality issues that could affect the results. These values may need to be corrected or removed.
+* **Cholesterol as a Risk Indicator:** Higher cholesterol levels are related to patients got  heart disease, however, it’s best to consider cholesterol with other risk factors for a more accurate decision.
 
-* **Cholesterol as a Risk Indicator:** Higher cholesterol levels are more common in heart disease patients, but due to the overlap, it’s best to consider cholesterol alongside other risk factors for a more accurate assessment.
-
-* **Managing High Cholesterol:** Given its prevalence in heart disease cases, managing high cholesterol could be key to preventing and controlling heart disease.
+* **Managing High Cholesterol:** Given its common in heart disease cases, managing high cholesterol could be key to preventing and controlling heart disease.
 
 **Conclusion:**
 
