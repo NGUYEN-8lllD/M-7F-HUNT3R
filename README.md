@@ -125,7 +125,8 @@ The age distribution of the patients in the dataset is shown in the histogram wi
 <br>
 
 ## Age Distribution of Heart Disease Cases
-![image](https://github.com/user-attachments/assets/8a89f3d0-7a51-44de-8d74-bf7493165087)
+![image](https://github.com/user-attachments/assets/2d4be382-4307-46bd-9ea1-e90f3f238f43)
+
 
 
 This chart shows heart disease cases by age group, with orange indicating patients with heart disease and light blue for those without.
