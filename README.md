@@ -328,19 +328,22 @@ This histogram with KDE overlays illustrates cholesterol levels among patients w
 * **Accuracy:** The KNN model hit 85.32% accuracy.
     * **No Heart Disease (Class 0):**
         * **Precision:** 80%
-        * **Recall:** 87%
+        * **Recall:** 86%
         * **F1-Score:** 0.83
     * **Heart Disease (Class 1):**
-        * **Precision:** 90%
-        * **Recall:** 84%
+        * **Precision:** 89%
+        * **Recall:** 85%
         * **F1-Score:** 0.87
 
-* **Averages:** Both macro and weighted averages are around 0.85, which mean that the model handles both classes pretty evenly.
+* **Averages:**
+* Macro Average: 0.85.
+* Weighted Average: 0.86.
+=> Accounts for class imbalance and confirms that the model handles the dataset effectively.
 * **AUC:** The KNN model scored an AUC of 0.92, showing it’s pretty good at showing the difference between heart disease and no heart disease patients.
 
 **Strengths:**
 
-* Competitive AUC of 0.92, close to Logistic Regression.
+* Competitive AUC of 0.92, means the model can reliably tell apart "Heart Disease" and "No Heart Disease" cases..
 * Precision and recall metrics for Class 1 reflect those of Logistic Regression, ensuring effective heart disease classfications.
 * High adaptability to nonlinear data relationships.
 
@@ -364,27 +367,27 @@ This histogram with KDE overlays illustrates cholesterol levels among patients w
 
 **Classification Metrics:**
 
-* Accuracy: Same as KNN, with 85.32% accuracy.
+* Accuracy: 87%.
 * Classification Metrics:
     * No Heart Disease (Class 0):
-      * **Precision:** 80%
-      * **Recall:** 87%
-      * **F1-Score:** 0.83
+      * **Precision:** 82%
+      * **Recall:** 88%
+      * **F1-Score:** 0.85
     * Heart Disease (Class 1):
-      * **Precision:** 90%
-      * **Recall:** 84%
+      * **Precision:** 91%
+      * **Recall:** 86%
       * **F1-Score:** 0.87
-    * **Averages:** Macro and weighted averages around 0.85, consistent across both classes.
-    * **AUC:** Slightly better than KNN with an AUC of 0.93.
+    * **Averages:** Both average metrics 0.87 show that the model handles both classes equally well, making it balanced.
+    * **AUC:** 0.93.
   
-**Strengths:**
+**Insights:**
 
 * High AUC of 0.93 show the different between patients with and without heart disease.
-* Precision of 90% make sure a low rate of false positives, making it reliable for classification true heart disease cases.
-* Balanced performance in both classes, as demonstrated by the almost equal macro and weighted averages.
+* Precision of 91% make sure a low rate of false positives, making it reliable for classification true heart disease cases.
+* Balanced performance in both classes.(Macro and weighted averages are equal).
 
   
-**Insights for Medical Applications:**
+**Medical Applications:**
 
 * Logistic Regression is well-suited for classification patients at risk, make sure most cases are accurately classified.
 * The high AUC suggests it is effective for testing programs, where false negatives must be minimum.
@@ -407,14 +410,14 @@ This histogram with KDE overlays illustrates cholesterol levels among patients w
 * **Accuracy (with 0.5 threshold):** 84.29% accuracy.
     * **Classification Metrics:**
         * **No Heart Disease (Class 0):**
-        * **Precision:** 78%
-        * **Recall:** 87%
-        * **F1-Score:** 0.82
+        * **Precision:** 80%
+        * **Recall:** 88%
+        * **F1-Score:** 0.84
     * **Heart Disease (Class 1):**
-        * **Precision:** 90%
-        * **Recall:** 82%
-        * **F1-Score:** 0.86
-    * **Averages:** Macro and weighted averages hover around 0.84, so it’s balanced but slightly lower than the other models.
+        * **Precision:** 91%
+        * **Recall:** 84%
+        * **F1-Score:** 0.87
+    * **Averages:** Macro and weighted averages are 0.85 and 0.86, so it’s balanced but slightly lower than the other models.
     * **AUC:** Scored an AUC of 0.92, close to KNN but lower Logistic Regression’s AUC about 0.93.
 
 **Strengths:**
@@ -424,8 +427,8 @@ This histogram with KDE overlays illustrates cholesterol levels among patients w
 
 **Weaknesses:**
 
-* Slightly lower precision (78%) for patients without heart disease (Class 0) show the potential overprediction of heart disease patient, which may lead to unnecessary secondary tests.
-
+* Slightly Lower Recall for Heart Disease (84%): Compared to precision, the model sometimes misses heart disease cases.
+  
 **Medical Applications**
 * **Screening Programs:** The model is ideal for initial heart disease check especially in high-risk populations. Its high recall for detecting heart disease make sure that most cases are classify.
 * **Preventive Interventions:** By accurately predicting at-risk individuals, medical providers can get resources for preventive measures like lifestyle recommend or early medical steps.
