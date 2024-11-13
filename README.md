@@ -296,28 +296,21 @@ The scatter plot visualizes cholesterol levels and resting blood pressure among 
 
 This histogram with KDE overlays illustrates cholesterol levels among patients with and without heart disease. The x-axis represents cholesterol levels, the y-axis shows patient count. Orange bars show patients with heart disease, and blue bars represent those without.
 
-**Main Point:**
+**Cholesterol Distribution for Patient Who Have And Not Have Heart Disease:**
 
-**Typical Cholesterol Distribution:**
+* Patients without heart disease (orange curve) have a slightly broader distribution compared to those with heart disease (blue curve).
+* Both groups highest around same cholesterol levels (200–250 mg/dL).
+**Higher Cholesterol Levels (>300 mg/dL):**
 
-* **Without Heart Disease (blue):** Highest is around 200–250 mg/dL, which is in the normal to almost high range.
+* Higher cholesterol levels are observed in both groups but are more frequent in patients without heart disease.
+* This could suggest that high cholesterol alone is not a definitive predictor of heart disease.
+**Lower Cholesterol Values (<150 mg/dL):**
 
-* **With Heart Disease (orange):** Highest are in the same range but have wider range, often greater than 250 mg/dL.
-
-* **Higher Cholesterol and Heart Disease:**  Cholesterol levels over 250 mg/dL are more common to patients who got heart disease, sometime it is even higher than 400 mg/dL.
-
-* **Overlap in Ranges:** Both groups mix significantly in the 150–250 mg/dL range, indicating that cholesterol levels alone do not clearly separate the groups.
-
-**Meaning:**
-
-* **Cholesterol as a Risk Indicator:** Higher cholesterol levels are related to patients got  heart disease, however, it’s best to consider cholesterol with other risk factors for a more accurate decision.
-
-* **Managing High Cholesterol:** Given its common in heart disease cases, managing high cholesterol could be key to preventing and controlling heart disease.
+* Patients with heart disease exhibit a more noticeable representation in this range, suggesting that low cholesterol levels might still occur in heart disease cases.
 
 **Conclusion:**
 
-=> High cholesterol is more common among heart disease patients; however, because there is an mix with patients without heart disease, cholesterol alone isn't a standalone predictor. High cholesterol can still need closer watching, mostly when combined with other risk factors. 
-
+=> Cholesterol levels alone are not enough to tell that patients have heart disease or not, given the large overlap in the 200–250 mg/dL range. We need to combine others factors to identify a patient have heart disease or not.
 <br>
 
 
