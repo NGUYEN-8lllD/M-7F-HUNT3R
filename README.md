@@ -153,7 +153,8 @@ Heart disease risk clearly goes up with age, peaking in the 50–60 range and st
 
 
 ## Cholesterol level by Heart Disease Status
-![image](https://github.com/user-attachments/assets/34192795-47bd-4a16-afac-0e23dfa19425.jpg)
+![image](https://github.com/user-attachments/assets/90d87ec0-8bce-4a9e-8133-03228b2e7615)
+
 
 
 This box plot shows cholesterol levels for patients with (1) and without (0) heart disease. The y-axis represents cholesterol levels.
