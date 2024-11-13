@@ -357,9 +357,7 @@ This histogram with KDE overlays illustrates cholesterol levels among patients w
     
 ## Logistic Regression Model Performance
 
-![image](https://github.com/user-attachments/assets/b88e8910-3113-45a6-9bdc-ca5357b0aeef)
-
-
+![image](https://github.com/user-attachments/assets/9012ab15-8c08-46f1-b8aa-0a7c8bdf31ce)
 
 
 **Classification Metrics:**
