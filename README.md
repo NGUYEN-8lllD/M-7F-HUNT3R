@@ -290,7 +290,8 @@ The scatter plot visualizes cholesterol levels and resting blood pressure among 
 
 
 ## Cholesterol Distribution in Heart Disease Patients
-![image](https://github.com/user-attachments/assets/27810d67-31b8-4eda-bf1e-11312688ef28)
+![image](https://github.com/user-attachments/assets/8799aeb0-ba6a-42ff-a68e-b549c4c221e6)
+
 
 
 
