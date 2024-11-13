@@ -319,7 +319,8 @@ This histogram with KDE overlays illustrates cholesterol levels among patients w
 
 
 ## K-Nearest Neighbors (KNN) Model Performance
-![image](https://github.com/user-attachments/assets/29ff85e6-83eb-4ef9-8cf6-65424957ee95)
+![image](https://github.com/user-attachments/assets/38a141d1-3129-4248-8fdd-a49247a05694)
+
 
 
 
@@ -357,7 +358,8 @@ This histogram with KDE overlays illustrates cholesterol levels among patients w
     
 ## Logistic Regression Model Performance
 
-![image](https://github.com/user-attachments/assets/9012ab15-8c08-46f1-b8aa-0a7c8bdf31ce)
+![image](https://github.com/user-attachments/assets/60e53257-4107-4828-933a-848ffd73faa4)
+
 
 
 **Classification Metrics:**
@@ -396,8 +398,7 @@ This histogram with KDE overlays illustrates cholesterol levels among patients w
 
 
 ## Linear Regression Model Performance
-![image](https://github.com/user-attachments/assets/284398c2-f616-4b35-9b12-9f56ba80ed53)
-
+![image](https://github.com/user-attachments/assets/bb4f0a33-3917-4426-90cb-bcc10e3c844b)
 
 
 
