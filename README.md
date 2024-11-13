@@ -300,10 +300,12 @@ This histogram with KDE overlays illustrates cholesterol levels among patients w
 
 * Patients without heart disease (orange curve) have a slightly broader distribution compared to those with heart disease (blue curve).
 * Both groups highest around same cholesterol levels (200–250 mg/dL).
+
 **Higher Cholesterol Levels (>300 mg/dL):**
 
 * Higher cholesterol levels are observed in both groups but are more frequent in patients without heart disease.
 * This could suggest that high cholesterol alone is not a definitive predictor of heart disease.
+
 **Lower Cholesterol Values (<150 mg/dL):**
 
 * Patients with heart disease exhibit a more noticeable representation in this range, suggesting that low cholesterol levels might still occur in heart disease cases.
