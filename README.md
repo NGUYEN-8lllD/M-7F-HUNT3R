@@ -95,7 +95,7 @@
 <br>
 
 ![image](https://github.com/user-attachments/assets/c86128bd-7ea2-4457-826c-340505f78889)
-- Complete and Clean Data: All columns are filled, and there are no duplicate records, ensuring the dataset is consistent and ready for analysis.
+- Complete and Clean Data: All columns are filled, and there are no duplicate records, ensuring the dataset is consistent and ready for analysis.However, in the Cholesterol, there are a bunch of value=0. We handle this by taking he median value of others values.
 - Detected Issues: Some values need attention, such as RestingBP (0), Cholesterol (0), and Oldpeak (-2.0), which are invalid, and a cholesterol value of 603, which seems unusually high.
 - Next Steps: Work with experts to confirm data accuracy, fix these issues, and set up processes to maintain data quality going forward.
 
