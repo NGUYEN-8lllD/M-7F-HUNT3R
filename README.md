@@ -161,25 +161,31 @@ This box plot shows cholesterol levels for patients with (1) and without (0) hea
   
 **Main Point**
   
-* **Median Levels:**
-  * Patients without heart disease have a median cholesterol slightly above 200 mg/dL.
-  * Patients with heart disease have a somewhat higher median, suggesting elevated cholesterol might be linked to heart disease.
-* **Distribution:**
-  * Non-heart disease patients have a tighter range (IQR), with most cholesterol values between 175 and 275 mg/dL.
-  * Heart disease patients show a broader spread, with values reaching up to 350 mg/dL, indicating more cholesterol variability in this group.
+* **Median Cholesterol Levels:**
+    * **Both groups:** Medians around 240–250 mg/dL (borderline high cholesterol)
+
+* **Spread of Cholesterol Levels:**
+    * **Both groups:** IQR between 200–300 mg/dL
+    * No significant spread difference, so cholesterol alone isn't a definitive indicator of heart disease
+
 * **Outliers:**
-  * The non-heart disease group has more extreme outliers, with some very high (above 400 mg/dL) and low (below 100 mg/dL) values.
-  * The heart disease group has fewer outliers but a generally wider spread, showing that high cholesterol is common here.
+    * **Without heart disease:** Some exceed 400 mg/dL, indicating hypercholesterolemia
+    * **With heart disease:** Fewer outliers but wider spread
+
+* **Low Cholesterol Levels:**
+    * **Both groups:** Some patients <200 mg/dL, indicating low cholesterol doesn't rule out heart disease
   
 **Main Point:**
 
-* **Cholesterol Management:** The higher median and broader spread in the heart disease group imply that controlling cholesterol could help reduce risk. Lifestyle changes and medications could be useful for patients with elevated levels.
-* **Comprehensive Screening:** Outliers suggest cholesterol alone isn’t enough to predict heart disease accurately. Screening for other risk factors (like blood pressure) would give a fuller picture.
-* **Age and Lifestyle Impact:** The variability in cholesterol, especially among heart disease patients, might reflect age or lifestyle factors. Targeted programs based on these factors could improve heart disease prevention.
+* **Cholesterol Management:** Overlap in cholesterol levels indicates the need for control to reduce heart disease risk.
+
+* **Comprehensive Screening:** Cholesterol alone isn't enough; other factors like blood pressure should be included.
+
+* **Age and Lifestyle Impact:** Variability suggests targeted prevention programs considering age/lifestyle factors.
  
 **Conclusion:**
 
- => High cholesterol is connected to a higher risk of heart disease, but it’s not the only thing to consider. People with heart disease often have higher cholesterol, which shows why managing it is important. However, taking other factors into account, like age and lifestyle, might be an even better way to prevent heart disease in the future.
+ => High cholesterol is linked to heart disease risk, but other factors like age and lifestyle should be considered for better prevention strategies. Combining cholesterol analysis with other medical data is crucial for reliable diagnostics and personalized care.
 <br>
 
 ## Chest Pain Type and Heart Disease
