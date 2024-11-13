@@ -154,7 +154,7 @@ Heart disease risk clearly goes up with age, peaking in the 50–60 range and st
 
 ## Cholesterol level by Heart Disease Status
 ![image](https://github.com/user-attachments/assets/90d87ec0-8bce-4a9e-8133-03228b2e7615)
-
+![image](https://github.com/user-attachments/assets/8799aeb0-ba6a-42ff-a68e-b549c4c221e6)
 
 
 This box plot shows cholesterol levels for patients with (1) and without (0) heart disease. The y-axis represents cholesterol levels.
@@ -293,34 +293,6 @@ The scatter plot visualizes cholesterol levels and resting blood pressure among 
 
 => High cholesterol and resting blood pressure levels are linked to heart disease, but they are not the only predictors. A full risk check needs to look at many factors together. Fixing any unusual data will also make the analysis more reliable.
 
-<br>
-
-
-## Cholesterol Distribution in Heart Disease Patients
-![image](https://github.com/user-attachments/assets/8799aeb0-ba6a-42ff-a68e-b549c4c221e6)
-
-
-
-
-This histogram with KDE overlays illustrates cholesterol levels among patients with and without heart disease. The x-axis represents cholesterol levels, the y-axis shows patient count. Orange bars show patients with heart disease, and blue bars represent those without.
-
-**Cholesterol Distribution for Patient Who Have And Not Have Heart Disease:**
-
-* Patients without heart disease (orange curve) have a slightly broader distribution compared to those with heart disease (blue curve).
-* Both groups highest around same cholesterol levels (200–250 mg/dL).
-
-**Higher Cholesterol Levels (>300 mg/dL):**
-
-* Higher cholesterol levels are observed in both groups but are more frequent in patients without heart disease.
-* This could suggest that high cholesterol alone is not a definitive predictor of heart disease.
-
-**Lower Cholesterol Values (<150 mg/dL):**
-
-* Patients with heart disease exhibit a more noticeable representation in this range, suggesting that low cholesterol levels might still occur in heart disease cases.
-
-**Conclusion:**
-
-=> Cholesterol levels alone are not enough to tell that patients have heart disease or not, given the large overlap in the 200–250 mg/dL range. We need to combine others factors to identify a patient have heart disease or not.
 <br>
 
 
