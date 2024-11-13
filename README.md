@@ -298,8 +298,6 @@ This histogram with KDE overlays illustrates cholesterol levels among patients w
 
 **Main Point:**
 
-Cholesterol Levels Near Zero: There’s a large number of patients with cholesterol levels close to zero, all represented by the orange bar (patients with heart disease). This is likely due to missing or incorrect data, as zero cholesterol isn’t realistic.
-
 **Typical Cholesterol Distribution:**
 
 * **Without Heart Disease (blue):** Highest is around 200–250 mg/dL, which is in the normal to almost high range.
@@ -318,7 +316,7 @@ Cholesterol Levels Near Zero: There’s a large number of patients with choleste
 
 **Conclusion:**
 
-=> High cholesterol is more common among heart disease patients; however, because there is an mix with patients without heart disease, cholesterol alone isn't a standalone predictor. High cholesterol can still need closer watching, mostly when combined with other risk factors. Additionally, near-zero values should be checked for accuracy to prevent skewed analysis.
+=> High cholesterol is more common among heart disease patients; however, because there is an mix with patients without heart disease, cholesterol alone isn't a standalone predictor. High cholesterol can still need closer watching, mostly when combined with other risk factors. 
 
 <br>
 
