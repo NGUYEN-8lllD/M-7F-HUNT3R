@@ -66,7 +66,32 @@
 <br>
  This study focuses on analyzing a dataset containing information from 918 patients. Each patient is described by various features such as age, blood pressure, cholesterol levels, maximum heart rate, and chest pain types. The dataset also includes a binary target variable, HeartDisease, which indicates whether a patient has been diagnosed with heart disease (1 = presence, 0 = absence).  
  <br>
-
+<h3>Source</h3>
+ <br>
+ This dataset was created by combining different datasets already available independently but not combined before. In this dataset, 5 heart datasets are combined over 11 common features which makes it the largest heart disease dataset available so far for research purposes. 
+ <br>
+ <h4>The five datasets used for its curation are:</h4>
+ <br>
+- Cleveland: 303 observation
+<br>
+- Hungarian: 294 observations
+<br>
+- Switzerland: 123 observations
+<br>
+- Long Beach VA: 200 observations
+<br>
+<br>
+<h4>Stalag (Heart):</h4>
+<br>
+- Data Set: 270 observations
+<br>
+- Total: 1190 observations
+<br>
+- Duplicated: 272 observations
+<br>
+- Final dataset: 918 observations
+<br>
+<br>
 <br>
 <h1>II. Data Discussion</h1>
 </div>
@@ -421,24 +446,7 @@ Between the models tested, both Logistic Regression and K-Nearest Neighbors work
 <br>
 <br>
 
-<h1>Source</h1>
- <br>
- This dataset was created by combining different datasets already available independently but not combined before. In this dataset, 5 heart datasets are combined over 11 common features which makes it the largest heart disease dataset available so far for research purposes. 
- <br>
- The five datasets used for its curation are:
-* Cleveland: 303 observation
-* Hungarian: 294 observations
-* Switzerland: 123 observations
-* Long Beach VA: 200 observations
-<br>
-<br>
-Stalag (Heart):
-* Data Set: 270 observations
-* Total: 1190 observations
-* Duplicated: 272 observations
-* Final dataset: 918 observations
-<br>
-<br>
+
 <h1>References: </h1>
 
 * https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/discussion?sort=hotness
