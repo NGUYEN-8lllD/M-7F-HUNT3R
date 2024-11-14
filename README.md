@@ -83,9 +83,9 @@
 <br>
 <h4>Stalag (Heart):</h4>
 <br>
-- Data Set: 270 observations
-<br>
 - Total: 1190 observations
+<br>
+- Data Set: 270 observations
 <br>
 - Duplicated: 272 observations
 <br>
