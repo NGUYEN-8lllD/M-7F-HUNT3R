@@ -185,7 +185,7 @@ This box plot shows cholesterol levels for patients with (1) and without (0) hea
  
 **Conclusion:**
 
- => High cholesterol is linked to heart disease risk, but other factors like age and lifestyle should be considered for better prevention strategies. Combining cholesterol analysis with other medical data is crucial for reliable diagnostics and personalized care.
+ => Cholesterol alone isn’t a standalone predictor. High cholesterol can still need closer watching, mostly when combined with other risk factors.
 <br>
 
 ## Chest Pain Type and Heart Disease
