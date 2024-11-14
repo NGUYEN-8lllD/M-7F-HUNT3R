@@ -62,7 +62,7 @@
 .
 <h1>I. Introduction</h1>
 <br>
- Cardiovascular diseases (CVDs) are like the top reason people die worldwide, killing about 17.9 million people every year, which is 31% of all deaths. Out of these, like 4 out of 5 deaths are from heart attacks and strokes, and a third of them happen to people under 70, which is considered early. Heart failure is a usual problem caused by CVDs, and this dataset has 11 features to try to predict if someone might get heart disease. 
+ Cardiovascular diseases (CVDs) are like the top reason people die worldwide, killing about 17.9 million people every year, which is 31% of all deaths. Out of these, like 4 out of 5 deaths are from heart attacks and strokes, and a third of them happen to people under 70, which is considered early. Heart failure is a usual problem caused by CVDs, and this dataset has 11 features to try to predict if someone might get heart disease.     
 <br>
  This study focuses on analyzing a dataset containing information from 918 patients. Each patient is described by various features such as age, blood pressure, cholesterol levels, maximum heart rate, and chest pain types. The dataset also includes a binary target variable, HeartDisease, which indicates whether a patient has been diagnosed with heart disease (1 = presence, 0 = absence).  
  <br>
