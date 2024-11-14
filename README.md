@@ -266,7 +266,8 @@ This scatter plot shows how age and maximum heart rate relate to heart disease. 
 <br>
 
 ## Cholesterol levels and resting blood pressure 
-![image](https://github.com/user-attachments/assets/05f2d769-fd90-42d0-8c19-c6481413dff4)
+![image](https://github.com/user-attachments/assets/16f1ffd7-8cf6-4f96-9297-da2c3f0c6f45)
+
 
 
 
