@@ -9,7 +9,7 @@
 <div align="center">
 
 
-<h1>Coronary Artery heart Disease 🫀.</h1>
+<h1>Coronary Artery heart Disease ❤️.</h1>
 <h2 align="center">Subject: Data Science 📊.</h2>
 <h2 align="center">Class: MAS2 🧑🏻‍🎓.</h2>
 <h2 align="center">Lecturer: Dr. Emmanuel Lance Christopher VI M. Plan 🧑🏻‍🏫.</h2>
@@ -66,30 +66,6 @@
 <br>
  This study focuses on analyzing a dataset containing information from 918 patients. Each patient is described by various features such as age, blood pressure, cholesterol levels, maximum heart rate, and chest pain types. The dataset also includes a binary target variable, HeartDisease, which indicates whether a patient has been diagnosed with heart disease (1 = presence, 0 = absence). 
  <br>
- Source
- <br>
- This dataset was created by combining different datasets already available independently but not combined before. In this dataset, 5 heart datasets are combined over 11 common features which makes it the largest heart disease dataset available so far for research purposes. The five datasets used for its curation are:
- <br>
-Cleveland: 303 observation
-<br>
-Hungarian: 294 observations
-<br>
-Switzerland: 123 observations
-<br>
-Long Beach VA: 200 observations
-<br>
-<br>
-Stalag (Heart) 
-<br>
-Data Set: 270 observations
-<br>
-Total: 1190 observations
-<br>
-Duplicated: 272 observations
-<br>
-Final dataset: 918 observations
-<br>
-<br>
 
 <br>
 <h1>II. Data Discussion</h1>
@@ -442,10 +418,34 @@ The scatter plot visualizes cholesterol levels and resting blood pressure among 
 In conclusion, this analysis shows that heart disease risk is related to several factors, such as age, cholesterol, blood pressure, blood sugar, and chest pain type. The results suggest that middle-aged and older adults, especially those with high cholesterol, high blood sugar, or certain chest pain types, have a higher risk. However, no single factor alone can predict heart disease. Looking at multiple factors together gives a clearer understanding.
 
 Between the models tested, both Logistic Regression and K-Nearest Neighbors worked well for predicting heart disease, with Logistic Regression being a bit more accurate. This may make it a better choice for this data. Overall, a balanced approach that includes careful monitoring, focusing on high-risk factors, and keeping data accurate could help in preventing and managing heart disease effectively.
+<br>
+<br>
 
+<h1>Source</h1>
+ <br>
+ This dataset was created by combining different datasets already available independently but not combined before. In this dataset, 5 heart datasets are combined over 11 common features which makes it the largest heart disease dataset available so far for research purposes. 
+ <br>
+ The five datasets used for its curation are:
+* Cleveland: 303 observation
+* Hungarian: 294 observations
+* Switzerland: 123 observations
+* Long Beach VA: 200 observations
+<br>
+<br>
+Stalag (Heart):
+* Data Set: 270 observations
+* Total: 1190 observations
+* Duplicated: 272 observations
+* Final dataset: 918 observations
+<br>
+<br>
 <h1>References: </h1>
 
 * https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction/discussion?sort=hotness
 * https://pubmed.ncbi.nlm.nih.gov/2756873/
+* https://catalog.data.gov/dataset/rates-and-trends-in-coronary-heart-disease-and-stroke-mortality-data-among-us-adults-1999--c8032
+* https://www.sciencedirect.com/science/article/pii/S1877050915029622?fbclid=IwZXh0bgNhZW0CMTEAAR1gT4etQiADhH4VvwsqcvSumw2oVmW2CboAip5sRWACqY9-HDBaw-EBuBs_aem_plm-0gf66SJqkJnRVpBuLQ
+* https://pmc.ncbi.nlm.nih.gov/articles/PMC5589605/
+* https://data.mendeley.com/datasets/p9bpx9ctcv/2?fbclid=IwZXh0bgNhZW0CMTEAAR24OckHgGJ3HWZsvCftwlDh367vnZe2Y2M8aAftYZwF5Ys4Z9zg5T8w7jc_aem_DWYWXieAhYkHGVMyIoYAcw
 
 
