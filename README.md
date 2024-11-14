@@ -62,9 +62,9 @@
 .
 <h1>I. Introduction</h1>
 <br>
- Cardiovascular diseases (CVDs) are like the top reason people die worldwide, killing about 17.9 million people every year, which is 31% of all deaths. Out of these, like 4 out of 5 deaths are from heart attacks and strokes, and a third of them happen to people under 70, which is considered early. Heart failure is a usual problem caused by CVDs, and this dataset has 11 features to try to predict if someone might get heart disease.     
+ Cardiovascular diseases (CVDs) are like the top reason people die worldwide, killing about 17.9 million people every year, which is 31% of all deaths. Out of these, like 4 out of 5 deaths are from heart attacks and strokes, and a third of them happen to people under 70, which is considered early. Heart failure is a usual problem caused by CVDs, and this dataset has 11 features to try to predict if someone might get heart disease.                                   
 <br>
- This study focuses on analyzing a dataset containing information from over 900 patients. Each patient is described by various features such as age, blood pressure, cholesterol levels, maximum heart rate, and chest pain types. The dataset also includes a binary target variable, HeartDisease, which indicates whether a patient has been diagnosed with heart disease (1 = presence, 0 = absence).                 
+ This study focuses on analyzing a dataset containing information from over 900 patients. Each patient is described by various features such as age, blood pressure, cholesterol levels, maximum heart rate, and chest pain types. The dataset also includes a binary target variable, HeartDisease, which indicates whether a patient has been diagnosed with heart disease (1 = presence, 0 = absence).                                                       
 
  Used dataset was created by combining different datasets already available independently but not combined before. In this dataset, 5 heart datasets are combined over 11 common features which makes it the largest heart disease dataset available so far for research purposes.                    
  <h4>The five datasets used for its curation are:</h4>
@@ -384,7 +384,7 @@ The scatter plot visualizes cholesterol levels and resting blood pressure among 
 
 * High AUC of 0.93 show the different between patients with and without heart disease.
 * Precision of 91% make sure a low rate of false positives, making it reliable for classification true heart disease cases.
-* Balanced performance in both classes.(Macro and weighted averages are equal).
+* Balanced performance in both classes.(Macro and weighted averages are equal).                           
 
   
 **Medical Applications:**
@@ -393,7 +393,7 @@ The scatter plot visualizes cholesterol levels and resting blood pressure among 
 * The high AUC suggests it is effective for testing programs, where false negatives must be minimum.
 * Recommended for medical that need models that can be easily understood, as Logistic Regression coefficients offer clear insights into the factors that contribute.
 
-**Summary:** Logistic Regression performs about the same as KNN in accuracy but have a higher AUC, making it slightly better for classify heart disease and non-heart disease cases. Ideal for applications where diagnostic accuracy matters a bit more.
+**Summary:** Logistic Regression performs about the same as KNN in accuracy but have a higher AUC, making it slightly better for classify heart disease and non-heart disease cases. Ideal for applications where diagnostic accuracy matters a bit more.           
 
 <br>
 <br>
@@ -423,7 +423,7 @@ The scatter plot visualizes cholesterol levels and resting blood pressure among 
 **Strengths:**
 
 * The model has strong predictive ability, especially in identifying patients with heart disease (Class 1). With a high precision of 90%, it minimum false positive
-* An AUC=0.92 confirms the model's strong in spotting between classes across varying thresholds.
+* An AUC=0.92 confirms the model's strong in spotting between classes across varying thresholds.           
 
 **Weaknesses:**
 
